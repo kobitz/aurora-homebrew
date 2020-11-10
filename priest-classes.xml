@@ -1,0 +1,2471 @@
+<elements>
+	<element name="Priest" type="Class" source="The Priest Class" id="ID_HOMEBREW_CLASS_PRIEST">
+		<description>
+			<p>Wielding nothing more than a hadful of papers and a chime, the priest stepped forward. Clad in the robes of their monastary, the priest precisely throws one of its paper talismans towards the enemy ranks. In the next moment, with the snap of a finger, the paper erupts into a confligration that engulfs the soldiers.</p>
+			<p class="indent">Surrounded by foes, the gnome manifests several glowing talismans inscribed with magical symbols to hover about her head. With the wave of her hands, the spectral pages fly towards her foes, slicing through them. In the next instant, the talismans fly back towards her, carving additional wounds along the way and returning to their hovering possition in preperation.</p>
+			<p class="indent">In a room dimly lit by a floating wisp, a human skillfully inscribes mysterious symbols to a piece of paper. The wisp suddenly bursts with light, revealing a spectre from beyond. With a deep breath he holds the paper in his hand. A flare of spiritual energy surges forth, dispatching the spectre and causing the wisp to go dim once again. </p>    
+      <p class="indent">Coming from the same monastic background as monks, Priests are those who prefer to focus their discipline towards more mystical arts. Their devoted study of scripture and diciplined practice of calligraphy gives them the ability to magically harness the energy that flows in their bodies. They can utilize this energy to manipulate objects, conjure spirits, and manifest elemental effects. Priest often study from other schools or profession to expand their knowledge, making inscriptions based on magical text that allow them to cast spells from those schools with ki.</p>
+
+      <h4>INSCRIPTION MAGIC</h4>
+			<p>A Priest is defined by it's unique list of spells and the use of Ki points as a resource for those spells. As their mastery of magical text improves, they're able to cast spells from other schools of magic using ki. The priest can also cast spells remotely using their magical talismans, giving them a unique role on the battlefield. Although they accel at support, priests often lack in range.</p>
+
+			<h4>CREATING A PRIEST </h4>
+			<p>As you make your priest character, think about your connection to the monastary where you learned and spent your formative years. Were you an orphan or a child left on the monastary’s threshold? Did your parents promise you to the monastary in gratitude for a service performed by the monks? Did you enter this secluded life to hide from a crime you committed? Or did you choose the monastic life for yourself?</p>
+			<p class="indent">As a result of the structured life of a monastic community and the discipline required to harness ki, priests are often lawful in alignment, however; due to their thirst for knowledge and eccentric nature, other alignments are not unheard of.</p>
+			<p class="indent">What drew you forth from your life of discipline? Did your first taste of magical knowledge leave you hungry for more? Were you sent on an important mission beyond the cloister? Have you received word of a historic repository of text never seen by your monastary? Perhaps you were even cast out for delving into forbidden scripture.</p>
+
+			<h5>QUICK BUILD</h5>
+			<p>You can make a Priest quickly by following these suggestions. First, Wisdom should be your highest ability score, followed by Constitution or Dexterity. Second, choose the acolyte background. Third, choose the <i>return</i>, <i>fling</i>, and <i>shell</i> cantrips, along with the <i>iron flesh</i> and <i>ki blast</i> 1st level spells and inscribe them all to your talismans.</p>
+
+			<h3>CLASS FEATURES</h3>
+			<p>As a priest, you gain the following class features.</p>
+
+			<h5>HIT POINTS</h5>
+			<ul class="unstyled">
+				<li><strong>Hit Dice:</strong> 1d8 per priest level</li>
+				<li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+				<li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per priest level after 1st</li>
+			</ul>
+
+			<h5>PROFICIENCIES</h5>
+			<ul class="unstyled mb">
+				<li><strong>Armor:</strong> None</li>
+				<li><strong>Weapons:</strong> Simple Weapons</li>
+				<li><strong>Tools:</strong> Calligrapher's Supplies, Painter's Supplies</li>
+			</ul>
+			<ul class="unstyled">
+				<li><strong>Saving Throws:</strong> Dexterity, Wisdom</li>
+				<li><strong>Skills:</strong> Choose three from Arcana, History, Insight, Investigation, Nature, Medicine, Perception, Religion</li>
+			</ul>
+
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li>(a) a dagger or (b) any simple weapon</li>
+				<li>(a) Calligrapher's Supplies or (b) Painter's Supplies</li>
+				<li>(a) a Priest's Pack or (b) a Scholar's Pack or (c) an Explorer's Pack.</li>
+				<li>a Priest Focus (fan, staff, or chime) and a sketch pad with 100 removable pages.</li>
+			</ul>
+
+			<h5 class="caption">THE PRIEST </h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="col-10">Cantrips Known</td><td>Spells Known</td><td>Spell Level</td><td>Ki</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Inscription Magic, Ki, Spell Talismans</td><td>3</td><td> 2</td><td>1</td><td> 2</td></tr>
+				<tr><td> 2nd</td><td class="left">Diverse Studies                       </td><td>4</td><td>3</td><td>1</td><td> 4</td></tr>
+				<tr><td> 3rd</td><td class="left">Sentry Defense                        </td><td>4</td><td> 4</td><td>2</td><td> 6</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement             </td><td>5</td><td> 4</td><td>2</td><td> 8</td></tr>
+				<tr><td> 5th</td><td class="left">—                                     </td><td>5</td><td> 6</td><td>3</td><td>10</td></tr>
+				<tr><td> 6th</td><td class="left">Study Feature                         </td><td>5</td><td> 6</td><td>3</td><td>11</td></tr>
+				<tr><td> 7th</td><td class="left">—                        		          </td><td>5</td><td> 8</td><td>4</td><td>12</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement             </td><td>5</td><td> 8</td><td>4</td><td>13</td></tr>
+				<tr><td> 9th</td><td class="left">—                                     </td><td>5</td><td>10</td><td>5</td><td>14</td></tr>
+				<tr><td>10th</td><td class="left">Ward                                  </td><td>6</td><td>10</td><td>5</td><td>15</td></tr>
+				<tr><td>11th</td><td class="left">—                                     </td><td>6</td><td>11</td><td>5</td><td>16</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement             </td><td>6</td><td>11</td><td>5</td><td>17</td></tr>
+				<tr><td>13th</td><td class="left">—                                     </td><td>6</td><td>12</td><td>5</td><td>18</td></tr>
+				<tr><td>14th</td><td class="left">Study Feature                         </td><td>6</td><td>12</td><td>5</td><td>19</td></tr>
+				<tr><td>15th</td><td class="left">—                                     </td><td>6</td><td>13</td><td>5</td><td>19</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement             </td><td>6</td><td>13</td><td>5</td><td>20</td></tr>
+				<tr><td>17th</td><td class="left">Diamond Spirit                        </td><td>6</td><td>14</td><td>5</td><td>20</td></tr>
+				<tr><td>18th</td><td class="left">Study Feature                         </td><td>6</td><td>14</td><td>5</td><td>21</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement             </td><td>6</td><td>14</td><td>5</td><td>21</td></tr>
+				<tr><td>20th</td><td class="left">Forbidden Inscriptions                </td><td>7</td><td>15</td><td>6</td><td>22</td></tr>
+			</table>
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_INSCRIPTION_CASTING" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_KI" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SPELL_TALISMANS" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIVERSE_STUDIES" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SENTRY_DEFENSE" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_ABILITYSCOREIMPROVEMENT_PRIEST" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_WARD" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIAMOND_SPIRIT" />
+			<div element="ID_HOMEBREW_CLASS_FEATURE_PRIEST_FORBIDDEN_INSCRIPTIONS" />
+		</description>
+		<sheet display="false">
+			<description>A monastic magic-user capable of manipulating ki to cast spells.</description>
+		</sheet>
+		<setters>
+			<set name="short">A monastic magic-user capable of manipulating ki to cast spells.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST"/>
+			<select type="Proficiency" name="Skill Proficiency (Priest)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="3" requirements="!ID_HOMEBREW_MULTICLASS_PRIEST"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_INSCRIPTION_CASTING" level="1"/>
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_KI" level="1" requirements="!ID_WOTC_PHB_CLASS_FEATURE_MONK_KI,!ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SPELL_TALISMANS" level="1" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIVERSE_STUDIES" level="2" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SENTRY_DEFENSE" level="3" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_ABILITYSCOREIMPROVEMENT_PRIEST" level="4" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_WARD" level="10" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIAMOND_SPIRIT" level="17" />
+			<grant type="Class Feature" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_FORBIDDEN_INSCRIPTIONS" level="20" />
+		</rules>
+		<multiclass id="ID_HOMEBREW_MULTICLASS_PRIEST">
+			<prerequisite>Wisdom 13</prerequisite>
+			<requirements>[wis:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Simple Weapons, one skill from the class’s skill list, one of Calligrapher's Supplies or Painter's Supplies</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			  <select type="Proficiency" name="Tool Proficiency (Priest)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES" />
+				<select type="Proficiency" name="Skill Proficiency (Priest)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_MEDICINE|ID_PROFICIENCY_SKILL_NATURE|ID_PROFICIENCY_SKILL_PERCEPTION|ID_PROFICIENCY_SKILL_RELIGION" number="1" />
+			</rules>
+		</multiclass>
+	</element>
+
+	<element name="Inscription Casting" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_INSCRIPTION_CASTING">
+		<description>
+			<p>At 1st level, you gain access to the Priest school of spells and use Ki to cast them. The Priest table shows the maximum level that you can cast your spells of 1st level and higher. To cast one of these spells, you must expend ki points equal to the level with which you cast it.</p>
+			<h5>CANTRIPS</h5>
+			<p>At first level, you know three cantrips of your choice from the Priest spell list. You learn additional cantrips of your choice at higher levels, as shown on the Cantrips Known column of the Priest table.</p>
+			<h5>Spells Known of 1st Level or Higher</h5>
+			<p>You	know two 1st-level spells of your choice from the Priest spell list. The Spells Known column of the Priest table shows when you learn more spells of your choice from this feature. Each of these spells must be of a level for which you can cast as shown on the Priest table. Additionally, when you gain a level in this class, you can choose one of the Priest spells you know from this feature and replace it with another spell from the Priest spell list. The new spell must also be of a level you can cast as shown on the Priest table.</p>
+			<h5>Hand Signs</h5>
+			<p>You can cast Priest spells you know without a focus if you have 2 free hands. Your hands imitate magical symbols, manefesting flourecent visages of those symbols to evoke the spell. The symbols are often organized in a magical circle, but unorthadox methods exist.</p>
+			<h5>Spellcasting Ability</h5>
+			<p>You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for spells you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+			<h5>MAGIC CIRCLES</h5>
+			<p>You can cast a priest spell as a ritual if that spell has the ritual tag. You don’t need to have the spell prepared. You do so by inscribing the spell directly on or around the target.</p>
+		</description>
+		<sheet display="false">
+			<description>You write {{ki:points}} spells to talismans. Talismans are considered a priest focus for spells written on them. You don't need a focus if you have 2 free hands. You can also cast spells as a ritual. </description>
+		</sheet>
+		<spellcasting name="Priest" ability="Wisdom" >
+			<list>Priest</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_RITUAL_CASTING" />
+			<grant type="Proficiency" id="ID_INTERNAL_PROFICIENCY_SPELLFOCUS_GROUP_ARCANE_FOCUS" />
+
+			<select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="1" number="3" spellcasting="Priest" />
+			<select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="3" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="5" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="9" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Cantrip (Priest)" supports="$(spellcasting:list), 0" level="18" number="1" spellcasting="Priest" />
+
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), 1" level="1" number="2" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), 1" level="2" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2)" level="3" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3)" level="5" number="2" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4)" level="7" number="2" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5)" level="9" number="2" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5)" level="11" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5)" level="13" number="1" spellcasting="Priest" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5)" level="15" number="1" spellcasting="Priest" requirements="!ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5||6)" level="15" number="1" spellcasting="Priest" requirements="ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5)" level="17" number="1" spellcasting="Priest" requirements="!ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5||6)" level="17" number="1" spellcasting="Priest" requirements="ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5||6)" level="20" number="1" spellcasting="Priest" requirements="!ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+			<select type="Spell" name="Inscription Casting (Priest)" supports="$(spellcasting:list), (1||2||3||4||5||6||7)" level="20" number="1" spellcasting="Priest" requirements="ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST" />
+
+			<stat name="ki:points" value="level:priest" />
+			<stat name="ki:points" level="1" value="1" />
+			<stat name="ki:points" level="2" value="1" />
+			<stat name="ki:points" level="3" value="1" />
+			<stat name="ki:points" level="4" value="1" />
+			<stat name="ki:points" level="5" value="1" />
+			<stat name="ki:points" level="15" value="-1" />
+			<stat name="ki:points" level="17" value="-1" />
+			<stat name="ki:points" level="19" value="-1" />
+		</rules>
+	</element>
+
+	<element name="Ki" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_KI"  >
+		<description>
+			<p>At first level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. You gain Ki points as you gain Priest levels, as shown in the Ki Points column of the Priest table.</p>
+			<p class="indent">You can spend these points to fuel various spells and abilities.</p>
+			<p class="indent">When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw half your Priest level of your expended ki back into yourself from a short rest and all expended ki back from a long rest. You must spend at least 30 minutes of the rest meditating to regain your ki points.</p>
+		</description>
+		<sheet alt="Ki" >
+			<description>You have {{ki:points}} Ki Points and your Ki DC is {{ki:dc}}</description>
+		</sheet>
+    <rules>
+			<stat name="ki:dc" value="8"  />
+			<stat name="ki:dc" value="proficiency"  />
+			<stat name="ki:dc" value="wisdom:modifier"  />
+		</rules>
+	</element>
+
+	<element name="Spell Talismans" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SPELL_TALISMANS">
+		<description>
+			<p>At second level, you can use your caligraphy or artist supplies to inscribe spells to paper or parchment to create spell talismans. You can use a Talisman as a Focus for spells written to them. The amount of talismans you can have prepared at one time is equal to your maximum Ki.</p>
+			<p>Talismans are destroyed if they take magical damage or a creature makes a successful strength ability check against your spell DC against the talisman. If a talisman is destroyed, it becomes unavailable until you prepare a replacement. You can prepare up to your priest level in new talismans or change your list of prepared talismans during a long rest. You must spend at least 30 minutes of the rest writing or painting to replace your talismans.</p>
+      <p>Your spell talismans can deliver Priest spells written to them as if they were cast from its location. The talisman must be within 100 ft. of you and you must be able to see it and the target. If a spell cast this way requires a weapon, you may use a weapon within the spells range of the talisman or use the talisman (simple melee weapon, finesse, light, thrown 30/90, no damage). If you hit a creature or object with a talisman, it magically adheres to it.</p>
+			<div class="reference">
+				<div element="ID_HOMEBREW_INFORMATION_TALISMAN" />
+			</div>
+		</description>
+		<sheet>
+			<description>You have {{ki:points}} magical Talismans inscribed with spells of your choosing.</description>
+		</sheet>
+	</element>
+
+	<element name="Diverse Studies" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIVERSE_STUDIES">
+		<description>
+      <p>At some point a priest will choose a path of study, further diversifying their magical knowledge. Those who choose to study the arcane might become an Arcanist, studying the ways of the wizard. One that is more inclined towards caligraphy or painting might become an Artist, bringing their drawing to life to aid them in battle and mimicing the musical artistry of bards with them. Other's might devote themselves entirely to monastic scripture as a Devotee, channeling divine power and cleric spells with their ki. Some simply wish to understanding the flow of nature as a Naturalist, altering their form to match their environment or accomplish tasks.</p>
+			<p>Starting at 2nd level, you expand your studies of magic. You choose from the Arcanist (Wizard), Artist (Bard), Devotee(Cleric), or Naturalist (Druid), gaining access to another spell list and passive benefits from those teachings.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Diverse Studies" supports="Diverse Studies" />
+		</rules>
+	</element>
+	<element name="Sentry Defense" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_SENTRY_DEFENSE">
+		<description>
+			<p>At 3rd level, your weapons can magically defend from attacks. If you or a friendly creature has 2 or more weapons affected by your priest spells within 5ft. of them; attacks made against them are made at disadvantage and they gain advantage on saving throws against all spells. When an attack misses or a saving throw succeeds because of this effect, your existing spell effects end on one of the defending weapons of your choice.</p>
+		</description>
+		<sheet>
+			<description>If two or more weapons affected by your priest spells are within 5ft of yourself or a friendly creature, attacks made against them have disadvantage and they have advantage on saving throws against spells.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Player’s Handbook" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_ABILITYSCOREIMPROVEMENT_PRIEST">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Priest 4)" supports="Improvement Option,Priest,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Priest 8)" supports="Improvement Option,Priest,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Priest 12)" supports="Improvement Option,Priest,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Priest 16)" supports="Improvement Option,Priest,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Priest 19)" supports="Improvement Option,Priest,19" level="19" />
+		</rules>
+	</element>
+	<element name="Ward" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_WARD">
+		<description>
+			<p>Starting at 10th level, you can share senses with a creature within 100ft. that you have a talisman placed on. Doing so requires concentration as if on a spell and you can only share senses with one creature at a time. Additionally, you get a special reaction that you can take once on every creature's turn, except your turn. You can use this special reaction only to cast priest spells with a cast time of 1 reaction on a creature you are sharing senses with.</p>
+		</description>
+		<sheet>
+			<description>You can share senses with a creature that you have a talisman attached to. Doing so requires concentration. Reaction spells used on this creature donot use your reaction.</description>
+		</sheet>
+	</element>
+	<element name="Diamond Spirit" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_DIAMOND_SPIRIT">
+		<description>
+			<p>At 17th level, your mastery of Ki lets you sustain your body with it. When making a saving throw against a spell, you can spend 1 ki point to take half damage on a failure or no damage on a success. Additionally, when you are afflicted by a negative status condition, you can use your reaction and spend 1 ki point to remove the condition. If the condition requires a saving throw, you make the saving throw with advantage, clearing the condition on a success.</p>
+		</description>
+		<sheet action = "Action" >
+			<description>When {{diamond:range}} make{{diamond:plural}} a saving throw against a spell you can spend 1 ki to {{diamond:plural2}} take no damage on a success and half damage on a failure. When {{diamond:range}} become{{diamond:plural}} afflicted with a condition, you can use your reaction and 1 ki to clear the condition. {{diamond:plural3}} must succeed the saving throw with advantage to do so.</description>
+		</sheet>
+    <rules>
+			<stat inline="true" name="diamond:range" value="you" />
+			<stat inline="true" name="diamond:plural" value="" />
+			<stat inline="true" name="diamond:plural2" value="" />
+			<stat inline="true" name="diamond:plural3" value="You" />
+    </rules>
+  </element>
+	<element name="Forbidden Inscriptions" type="Class Feature" source="The Priest Class" id="ID_HOMEBREW_CLASS_FEATURE_PRIEST_FORBIDDEN_INSCRIPTIONS">
+		<description>
+			<p>Starting at 20th level, you can learn spells from any school of magic. Spells from schools you do not know ignore their material componants, consuming talismans equal to the spells level instead. Additionally, your Priest spells cost 1 less Ki point to cast and 1st level Priest spells count as cantrips. If you want to cast a 1st level Priest spell at a higher level, you must expend ki as normal -1.</p>
+		</description>
+		<sheet>
+			<description>you can learn spells from any school of magic. Spells from schools you do not know consume talismans equal to the spells level. Your Priest spells cost 1 less Ki point and 1st level Priest spells count as cantrips.</description>
+		</sheet>
+	</element>
+
+  <!-- Arcanist Subclass -->
+	<element name="Arcanist" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PRIEST_ARCANIST">
+		<supports>Diverse Studies</supports>
+		<description>
+			<p>Focusing your studies on the arcane arts, you gain access to the wizard school of spells.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_INSCRIPTION_BOOK" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_MARTIAL_BOOK" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_OL_RELIABLE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_COMPLEX_INSCRIPTIONS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_SIGNITURE_INSCRIPTION" />
+		</description>
+		<spellcasting name="Priest" extend="true">
+			<extend>Wizard</extend>
+		</spellcasting>
+		<sheet display="false">
+			<description>Focusing your studies on the arcane arts, you gain access to the wizard school of spells.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_INSCRIPTION_BOOK" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_MARTIAL_BOOK" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_OL_RELIABLE" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_COMPLEX_INSCRIPTIONS" level="14"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_SIGNITURE_INSCRIPTION" level="18"/>
+		</rules>
+	</element>
+	<element name="Inscription Book" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_INSCRIPTION_BOOK">
+		<description>
+			<p>At second level, you can write your spells to a spell book and use it as a focus. The spell book is treated as a Priest focus.</p>
+		</description>
+		<sheet>
+			<description>You can write your spells to a spell book and use it as a focus. The spell book is treated as a Priest focus.</description>
+		</sheet>
+	</element>
+	<element name="Martial Book" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_MARTIAL_BOOK">
+		<description>
+			<p>At second level, your spell book counts as a simple melee weapon with a reach of 5ft. and has the light property. You are proficient with it and it deals 1d4 + your spellcasting ability modifier force damage. You use wisdom for attack rolls made with this weapon.</p>
+		</description>
+		<sheet>
+			<description>You are proficient with attacks made with your spell book and it deals 1d4 + your spellcasting modifier in force damage</description>
+		</sheet>
+	</element>
+	<element name="Ol' Reliable" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_OL_RELIABLE">
+		<description>
+			<p>Starting at 6th level, attacks made with your book are made with advantage. You learn an additional spell from the wizard spell list at the 6th, 9th, 12th, 15th, and 18th levels you take in Priest.</p>
+		</description>
+		<sheet>
+			<description>Attacks made with your book are made with advantage.</description>
+		</sheet>
+		<rules>
+			<select type="Spell" name="Ol' Reliable" supports="Wizard, (1||2||3)" spellcasting="Priest" level="6" />
+			<select type="Spell" name="Ol' Reliable" supports="Wizard, (1||2||3||4||5)" spellcasting="Priest" level="9" />
+			<select type="Spell" name="Ol' Reliable" supports="Wizard, (1||2||3||4||5)" spellcasting="Priest" level="12" />
+			<select type="Spell" name="Ol' Reliable" supports="Wizard, (1||2||3||4||5||6||7)" spellcasting="Priest" level="15" />
+			<select type="Spell" name="Ol' Reliable" supports="Wizard, (1||2||3||4||5||6||7||8)" spellcasting="Priest" level="18" />
+		</rules>
+	</element>
+	<element name="Complex Inscriptions" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_COMPLEX_INSCRIPTIONS">
+		<description>
+			<p>At 14th level, your study of the arcane allows for more complex inscriptions. Your maximum spell level increases by 1.</p>
+		</description>
+		<sheet>
+			<description>Your maximum spell level increases by 1.</description>
+		</sheet>
+	</element>
+	<element name="Signature Inscriptions" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARCANIST_SIGNITURE_INSCRIPTION">
+		<description>
+			<p>Starting at 18th level, you have achieved such mastery over certain spells that you can cast them with little effort. Choose two 2nd-level spells that you know. You can cast these spells at their lowest level without expending Ki. If you want to cast either spell at a higher level, you must expend Ki as normal.</p>
+			<p class="indent">By spending 8 hours in study, you can exchange one or both of the spells you chose for different spells of the same level.</p>
+		</description>
+		<sheet>
+			<description>You can cast two second level spells of your choosing at their lowest level without expending Ki.</description>
+		</sheet>
+	</element>
+
+  <!-- Artist Subclass -->
+	<element name="Artist" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PRIEST_ARTIST">
+		<supports>Diverse Studies</supports>
+		<description>
+			<p>Focusing your studies on calligraphy and art, you gain access to the Bard spell list.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_WORLD_CANVAS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_AIR_CANVAS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_CREATORS_COMPANIONS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_RELIABLE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_MASTERPIECE" />
+		</description>
+		<spellcasting name="Priest" extend="true">
+			<extend>Bard</extend>
+		</spellcasting>
+		<sheet display="false">
+			<description>Focusing your studies on calligraphy and art, you gain access to the Bard spell list.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_WORLD_CANVAS" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_AIR_CANVAS" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_CREATORS_COMPANIONS" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_RELIABLE" level="14"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_MASTERPIECE" level="18"/>
+		</rules>
+	</element>
+	<element name="World Canvas" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_WORLD_CANVAS">
+		<description>
+			<p>At second level, you can draw or write the verbal component of Priest spells and you can use calligraphy tools, painters tools, or a musical instrument as a focus for your spells.</p>
+			<p>Additionally, you can write spells directly to objects, treating them as a talisman. Your talisman limit still applies.</p>
+		</description>
+		<sheet>
+			<description>You can draw or write the verbal component of spells</description>
+		</sheet>
+	</element>
+	<element name="Air Canvas" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_AIR_CANVAS">
+		<description>
+			<p>At second level, you can draw or write on empty space. The ink floats in the air as if drawn to an invisible canvas and are treated the same as a talisman.</p>
+		</description>
+		<sheet>
+			<description>You can draw or write spells on empty space.</description>
+		</sheet>
+	</element>
+	<element name="Creators Companions" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_CREATORS_COMPANIONS">
+		<description>
+			<p>Starting at 6th level, you can summon creatures of a CR of 1/8th or lower from a canvas you have drawn it on. This creature becomes your familiar and follows the same rules as the Spirit Familiar spell. You learn the Spirit Familiar spell and can cast it at will. When you cast Spirit Familiar, you can expend spell slots of the third level or higher to summon additional familiars. If you use this feature while having any familiars, all previous summoned familiars disappear.</p>
+		</description>
+		<sheet>
+			<description>You know the Spirit Familiar spell and can cast it at will. You can summon additional familiars for 3 ki each when you cast it.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_HOMEBREW_SPELL_SPIRIT_FAMILIAR" spellcasting="Priest"/>
+		</rules>
+	</element>
+	<element name="Reliable" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_RELIABLE">
+		<description>
+			<p>Starting at 14th level, you have advantage on ability checks that you are not proficient with and ability checks you're proficient with cannot be made at disadvantage.</p>
+		</description>
+		<sheet>
+			<description>you have advantage on ability checks that you are not proficient with and ability checks you're proficient with cannot be made at disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="Masterpiece" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_ARTIST_MASTERPIECE">
+		<description>
+			<p>Starting at 18th level, your drawings become reality. During a short rest, you can instead attempt to recreate a creature or item you've seen in the last 30 days. Make an Intelligence check (DC = CR+10 if it's a creature or 12 for a common item adding 1 for each rarity step above common) using art supplies you're proficient with, creating an exact copy of the chosen object on a success. If it is a creature, it's stats are identical to the chosen creature and it is friendly towards you. If you choose an item, the creation is identical to the chosen item. This process takes longer the larger the object. A large object requires 8 short rests or 1 long rest, repeating the skill check each time. A huge object takes 16 short rests or 2 long rests. (you must sacrifice this time to do so, suffering exhaustion as normal). The manifested creation lasts up to 1 hour, and requires concentration like a spell. If you concentrate on this ability for the duration, the creation lasts until you use this ability again. This ability costs the objects value, or its weight in gold, whichever is higher.</p>
+		</description>
+		<sheet>
+			<description>Your drawings become reality</description>
+		</sheet>
+	</element>
+
+  <!-- Devotee Subclass-->
+	<element name="Devotee" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PRIEST_DEVOTEE">
+		<supports>Diverse Studies</supports>
+		<description>
+			<p>You devote yourself to monastic scripture, gaining access to the cleric spells list.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_EXORCIST" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_SPIRITUAL_HEALING" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_ENLIGHTEN" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_BANISHMENT" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_DIAMOND_AURA" />
+		</description>
+		<spellcasting name="Priest" extend="true">
+			<extend>Cleric</extend>
+		</spellcasting>
+		<sheet display="false">
+			<description>You devote yourself to monastic scripture, gaining access to the cleric spells list.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_EXORCIST" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_SPIRITUAL_HEALING" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_ENLIGHTEN" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_BANISHMENT" level="14"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_DIAMOND_AURA" level="18"/>
+		</rules>
+	</element>
+	<element name="Exorcist" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_EXORCIST">
+		<description>
+			<p>At second level, you gain the ability to enflame your spiritual energy to drive spirits away. You learn the Turn Undead channel divinity. The DC equals your priest spell save DC. Additionally, you can channel divinity through your talismans.</p>
+			<p class="indent">You must finish a short or long rest to use your Channel Divinity again.</p>
+			<p class="indent">Beginning at 6th level, you can use your Channel Divinity twice between rests, and beginning at 18th level, you can use it three times between rests. When you finish a short or long rest, you regain your expended uses.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_TURN_UNDEAD" />
+		</description>
+		<sheet alt="Channel Divinity" usage="{{channel divinity:count}}/Short Rest" />
+		<rules>
+			<stat name="channel divinity:count" value="1" bonus="base" />
+			<stat name="channel divinity:count" value="2" level="6" bonus="base" />
+			<stat name="channel divinity:count" value="3" level="18" bonus="base" />
+			<grant type="Feat Feature" name="Exorcist" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_TURN_UNDEAD" />
+		</rules>
+	</element>
+	<element name="Channel Divinity: Turn Undead" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_TURN_UNDEAD">
+		<description>
+			<p>As an action, you inflame your spiritual energy to drive spirits away. Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.</p>
+			<p class="indent">A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</p>
+		</description>
+		<sheet alt="Turn Undead" action="Action" usage="Channel Divinity">
+			<description>Each undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.
+				A turned creature must spend its turns trying to move as far away from you as it can, and it can’t willingly move to a space within 30 feet of you. It also can’t take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there’s nowhere to move, the creature can use the Dodge action.</description>
+		</sheet>
+	</element>
+	<element name="Spiritual Healing" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_SPIRITUAL_HEALING">
+		<description>
+			<p>Starting at 2nd level, you can channel your Ki into healing energy, mending wounds. As an action, you can touch a willing creature, you spend up to your maximum spell level in ki, healing the creature for 1d4 for each ki spent this way + your spellcasting ability modifier.</p>
+		</description>
+		<sheet action="Action">
+			<description>You spend up to {{priest:spell:level}} ki to heal a creature you touch for up to {{priest:spell:level}}d4 + your spellcasting modifier hit points.</description>
+		</sheet>
+    <rules>
+			<stat name="priest:spell:level" value="1" />
+			<stat name="priest:spell:level" value="1" level="3" />
+			<stat name="priest:spell:level" value="1" level="5" />
+			<stat name="priest:spell:level" value="1" level="7" />
+			<stat name="priest:spell:level" value="1" level="9" />
+			<stat name="priest:spell:level" value="1" level="13" />
+			<stat name="priest:spell:level" value="1" level="17" />
+    </rules>
+	</element>
+
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIFE_CHANNELDIVINITY_PRESERVELIFE">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_KNOWLEDGE_OF_THE_AGES">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_KNOWLEDGE_DOMAIN_CD_READ_THOUGHTS">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_LIGHT_DOMAIN_CD_RADIANCE_OF_THE_DAWN">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_NATURE_DOMAIN_CD_CHARM_ANIMALS_AND_PLANTS">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TEMPEST_DOMAIN_CD_DESTRUCTIVE_WRATH">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_INVOKE_DUPLICITY">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_TRICKERY_DOMAIN_CD_CLOAK_OF_SHADOWS">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_GUIDED_STRIKE">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PHB_ARCHETYPE_FEATURE_WAR_DOMAIN_CD_WAR_GODS_BLESSING">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_DMG_ARCHETYPE_FEATURE_DEATH_DOMAIN_CHANNELDIVINITY_TOUCH_OF_DEATH">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_FORGE_DOMAIN_CD_ARTISANS_BLESSING">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_XGTE_ARCHETYPE_FEATURE_GRAVE_DOMAIN_CD_PATH_TO_THE_GRAVE">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_GGTR_ARCHETYPE_FEATURE_ORDER_DOMAIN_CD_ORDERS_DEMAND">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_SCAG_ARCHETYPE_FEATURE_ARCANA_DOMAIN_CD_ARCANE_ABJURATION">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_FEAT_OF_STRENGTH">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PSA_ARCHETYPE_FEATURE_STRENGTH_DOMAIN_CD_RHONAS_BLESSING">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PSA_ARCHETYPE_FEATURE_ZEAL_DOMAIN_CD_CONSUMING_FERVOR">
+      <supports>Channel Divinity</supports>
+    </append>
+    <append id="ID_WOTC_PSA_ARCHETYPE_FEATURE_SOLIDARITY_DOMAIN_CD_OKETRAS_BLESSING">
+      <supports>Channel Divinity</supports>
+    </append>
+
+	<element name="Enlightened" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_ENLIGHTEN">
+		<description>
+			<p>Starting at 6th level, you learn your choice of one channel divinity from a cleric divine domain of your choice.</p>
+		</description>
+		<sheet>
+			<description></description>
+		</sheet>
+		<rules>
+			<select type="Archetype Feature" name="Enlightened" supports="Channel Divinity" />
+		</rules>
+	</element>
+
+	<element name="Banishment" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_BANISHMENT">
+		<description>
+			<p>Starting at 14th level, when an undead fails its saving throw against your Turn Undead channel divinity, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Banishment table.</p>
+				<h5 class="caption">BANISHMENT</h5>
+				<table>
+					<thead>
+						<tr><td>Priest Level</td><td>Destroys Undead of CR ...</td></tr>
+					</thead>
+					<tr><td>5th</td><td>1/2 or lower</td></tr>
+					<tr><td>8th</td><td>1 or lower</td></tr>
+					<tr><td>11th</td><td>2 or lower</td></tr>
+					<tr><td>14th</td><td>3 or lower</td></tr>
+					<tr><td>17th</td><td>4 or lower</td></tr>
+				</table>
+		</description>
+		<sheet>
+			<description>When an undead of CR 1/2 or lower fails its saving throw against your Exorcist feature, the creature is instantly destroyed.</description>
+			<description level="8">When an undead of CR 1 or lower fails its saving throw against your Exorcist feature, the creature is instantly destroyed.</description>
+			<description level="11">When an undead of CR 2 or lower fails its saving throw against your Exorcist feature, the creature is instantly destroyed.</description>
+			<description level="14">When an undead of CR 3 or lower fails its saving throw against your Exorcist feature, the creature is instantly destroyed.</description>
+			<description level="17">When an undead of CR 4 or lower fails its saving throw against your Exorcist feature, the creature is instantly destroyed.</description>
+		</sheet>
+	</element>
+
+	<element name="Diamond Aura" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_DEVOTEE_DIAMOND_AURA">
+		<description>
+			<p>Starting at 18th level, your Diamond Spirit feature can be used on creature within 15 ft. that you can see.</p>
+		</description>
+		<sheet>
+		  <description>Your Diamond Spirit feature has a range of touch instead of self.
+		  </description>
+		</sheet>
+    <rules>
+			<stat inline="true" name="diamond:range" value="a creature within 15 ft." />
+			<stat inline="true" name="diamond:plural" value="s" />
+			<stat inline="true" name="diamond:plural2" value="have them" />
+			<stat inline="true" name="diamond:plural3" value="They" />
+    </rules>
+	</element>
+
+  <!-- Naturalist Archetype -->
+	<element name="Naturalist" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PRIEST_NATURALIST">
+		<supports>Diverse Studies</supports>
+		<description>
+			<p>You focus your learning to the cycle of nature, gaining access to the druid spells list.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ALTERED_FORM" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_DRUIDIC" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ADAPTIVE_FORM" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_COMBINED_FORMS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ARCHMAGIC" />
+		</description>
+		<spellcasting name="Priest" extend="true">
+			<extend>Druid</extend>
+		</spellcasting>
+		<sheet display="false">
+			<description>You focus your learning to the cycle of nature, gaining access to the druid spells list.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ALTERED_FORM" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_DRUIDIC" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ADAPTIVE_FORM" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_COMBINED_FORMS" level="14"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ARCHMAGIC" level="18"/>
+		</rules>
+	</element>
+	<element name="Altered Form" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ALTERED_FORM">
+		<description>
+			<p>At second level, you learn the alter self spell and can cast it at will. The spell does not count towards your maximum spells known and does not require concentration.</p>
+		</description>
+		<sheet>
+			<description>Your alter self spell does not require concentration</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_ALTER_SELF" spellcasting="Priest"/>
+		</rules>
+	</element>
+	<element name="Druidic" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_DRUIDIC">
+		<description>
+			<p>At second level, You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message’s presence with a successful DC 15 Wisdom (Perception) check but can’t decipher it without magic.</p>
+		</description>
+		<sheet>
+			<description>You know Druidic.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_DRUIDIC" />
+		</rules>
+	</element>
+	<element name="Adaptive Form" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ADAPTIVE_FORM">
+		<description>
+			<p>Starting at 6th level, your alter self spell can grant you parts of creatures you know.</p>
+			<p>
+				<b>Winges.</b>You have a fly speed equal to your walk speed.</p>
+			<p>
+				<b>Senses.</b>You change your eyes, ears, or skin into that of a creature you know, granting you it's senses related to seeing, hearing, or feeling respectively.</p>
+			<p>
+				<b>Improved Natural Weapon.</b>Your natural weapons damage becomes equal to a beast with a CR of your level or lower that you know and the attack and damage bonus is increased to +2.</p>
+		</description>
+		<sheet>
+			<description>Your alter self spell can grant you the wings, senses, or natural weapons of creatures you know.</description>
+		</sheet>
+	</element>
+	<element name="Combined Forms" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_COMBINED_FORMS">
+		<description>
+			<p>Starting at 14th level, your alter self spell can apply up to two of it's effects instead of just one, inscreasing again to three at 18th level.</p>
+		</description>
+		<sheet>
+			<description>Your alter self spell can apply up to {{combinedforms:count}} of it's effects instead of just one</description>
+		</sheet>
+    <rules>
+		  <stat name="combinedforms:count" value="2" />
+		  <stat name="combinedforms:count" value="1" level="18" />
+    </rules>
+  </element>
+	<element name="Archmagic" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_NATURALIST_ARCHMAGIC">
+		<description>
+			<p>Starting at 18th level, you can ignore the verbal and somatic components of spells.</p>
+		</description>
+		<sheet>
+			<description>You can ignore the verbal and somatic components of spells.</description>
+		</sheet>
+	</element>
+
+
+  <!-- Forbidden Archetype -->
+	<element name="Forbidden Teachings" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PRIEST_FORBIDDEN">
+		<supports>Diverse Studies</supports>
+		<description>
+			<p>You devote yourself to the study of monsters and fiends magical abilities, gaining access to the warlock spells list.</p>
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_INSCRIPTIONS" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_ELDRITCH_INTRIGUE" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_CHARM" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_RESENTFUL_KI" />
+			<div element="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_SUPERIOR_COUNTER" />
+		</description>
+		<spellcasting name="Priest" extend="true">
+			<extend>Warlock</extend>
+		</spellcasting>
+		<sheet display="false">
+			<description>You devote yourself to the study of monsters and fiends magical abilities, gaining access to the warlock spells list.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_INSCRIPTIONS" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_ELDRITCH_INTRIGUE" level="2"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_CHARM" level="6"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_RESENTFUL_KI" level="14"/>
+			<grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_SUPERIOR_COUNTER" level="18"/>
+		</rules>
+	</element>
+	<element name="Monstrous Inscriptions" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_INSCRIPTIONS">
+		<description>
+			<p>At second level, you gain access to spells cast by any creature you know with a CR equal to half your level (rounded down) or lower. These spells are treated as priest spells.</p>
+		</description>
+		<sheet>
+			<description>You can learn spells from creatures you know</description>
+		</sheet>
+	</element>
+	<element name="Eldritch Intrigue" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_ELDRITCH_INTRIGUE">
+		<description>
+			<p>At second level, you gain 1 warlock eldritch invocation, gaining another at 6th, 14th, and 18th level in Priest.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Eldritch Invocation (Level 2)" supports="Eldritch Invocation" level="2" number="1" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 6)" supports="Eldritch Invocation" level="6" number="1" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 14)" supports="Eldritch Invocation" level="14" number="1" />
+			<select type="Class Feature" name="Eldritch Invocation (Level 18)" supports="Eldritch Invocation" level="18" number="1" />
+		</rules>
+	</element>
+	<element name="Monstrous Charm" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_MONSTROUS_CHARM">
+		<description>
+			Starting at 6th level, you learn the Charm Monster spell and can cast it at will. Casting it at higher levels consumes spellslots/ki as normal -4.
+		</description>
+		<sheet>
+			<description>You can cast Charm Monster at will.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_XGTE_SPELL_CHARM_MONSTER" spellcasting="Priest"/>
+		</rules>
+	</element>
+	<element name="Resentful Ki" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_RESENTFUL_KI">
+		<description>
+			<p>Starting at 14th level, you have learned to harness the power of resentment and hate to power your spells. When you become the target of an attack or spell, you regain 1 ki point. Additionally, if a creature dies within your line of sight, you regain 1 ki point.</p>
+		</description>
+		<sheet>
+			<description>You regain 1 ki when targetted by an attack or spell or if you see a creature die.</description>
+		</sheet>
+  </element>
+	<element name="Superior Counter" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_PRIEST_FORBIDDEN_SUPERIOR_COUNTER">
+		<description>
+			<p>Starting at 18th level, You learn the Counterspell spell (if you already know counterspell, you learn any 3rd level spell of your choice that you can cast) and you can counter spells targetting you even if you cannot see it being cast. Additionally, you can counterspell features.</p>
+		</description>
+		<sheet>
+			<description>You can Counterspell the activation of any magical effect even if you donot see it being cast.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COUNTERSPELL" spellcasting="Priest"/>
+		</rules>
+	</element>
+
+  <!-- Rogue Archetype: Ninja -->
+  <element name="Ninja" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_NINJA">
+    <supports>Roguish Archetype</supports>
+    <description>
+      <p>Ninjas use talismans to invoke Inscription spells.</p>
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI" />
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_INSCRIPTION_CASTING" />
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_EXPLOIT_WEAKNESS" />
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU" />
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI_MASTERY" />
+      <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_MIMICRY" />
+    </description>
+    <sheet>
+      <description>You enhance your fine-honed skills of stealth and agility with magic, learning to cast spells from magically inscribed Talismans.</description>
+    </sheet>
+    <rules>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_INSCRIPTION_CASTING" level="3"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI" level="3" requirements="!ID_HOMEBREW_CLASS_FEATURE_PRIEST_KI,!ID_WOTC_PHB_CLASS_FEATURE_MONK_KI" />
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_EXPLOIT_WEAKNESS" level="6"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU" level="9"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI_MASTERY" level="13"/>
+      <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_MIMICRY" level="17"/>
+      <stat name="ki:points" value="1" />
+      <stat name="ki:points" value="proficiency" />
+      <stat name="ki:points" value="1" level="7" />
+      <stat name="ki:points" value="1" level="11" />
+      <stat name="ki:points" value="1" level="15" />
+      <stat name="ki:points" value="1" level="19" />
+    </rules>
+  </element>
+  <element name="Ki" type="Archetype Feature" source="Player’s Handbook" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI">
+    <description>
+      <p>Starting at 3rd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. Your Rogue level determines the number of points you have, as shown in the Ki Points column of the Ninja table.</p>
+      <p class="indent">You can spend these points to fuel various Inscriptions.</p>
+      <p class="indent">When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points.</p>
+    </description>
+		<sheet alt="Ki" >
+      <description>You have {{ki:points}} Ki Points and your Ki DC is {{ki:dc}}</description>
+    </sheet>
+    <rules>
+      <stat name="ki:dc" value="8" />
+      <stat name="ki:dc" value="proficiency" />
+      <stat name="ki:dc" value="wisdom:modifier" />
+    </rules>
+  </element>
+  <element name="Inscription Casting" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_INSCRIPTION_CASTING">
+    <description>
+      <p>When you reach 3rd level, you gain access to the Priest spells list and use Ki to cast spells. The Ninja table shows the maximum level that you can cast your spells of 1st level and higher. To cast one of these spells, you must expend ki points equal to the spells level. </p>
+      <p class="indent">
+        <b><i>Hand Signs.</i></b>You can cast Priest spells you know without a focus if you have 2 free hands. Your hands imitate magical symbols, manefesting flourecent visages of those symbols to evoke the spell.</p>
+      <p class="indent">
+        <b><i>Spell Talismans. </i></b>You can inscribe spells to paper creating a spell talisman. You can use a Talisman as a Focus for spells written to them. Your spell talismans can deliver spells written to them as if they were cast from its location. The talisman must be within 100 ft. of you and you must be able to see it and the target. The amount of talismans you can have prepared at one time is equal to your maximum Ki.</p>
+      <p>If a spell cast this way requires a weapon, you may use a weapon within the spells range of the talisman or use the talisman (simple melee weapon, light, thrown 30/120, no damage). If you hit a creature or object with a talisman, it magically adheres to it, allowing spells with a reach of touch inscribed to the talisman to be cast on the adhered object or creature. A creature can make a strength ability check against your spell save DC as an action to remove the talisman. The talisman is destroyed if it takes magical damage of any kind.</p>
+      <p class="indent">
+        <b><i>Cantrips.</i></b> You learn three cantrips: Return and two other cantrips of your choice from the Priest spell list. You learn another cantrip of your choice at the 10th and 16th level.</p>
+      <p class="indent">
+        <b><i>Inscriptions Known.</i></b>You know two 1st level Priest spells of your choice from the Priest spell list. The Spells Known column of the Ninja table shows when you learn more spells of 1st level or higher. Each of these spells must be a spell of your choice from the spells lists you know, and must be of a level of which you can cast.</p>
+      <p>You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for spells you cast and when making an attack roll with one.</p>
+      <center>
+        <p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+        <p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+      </center>
+      <h5 class="caption">Ninja Table</h5>
+      <table class="class-features">
+        <thead>
+          <tr><td class="col-10">Rogue Level</td><td class="col-10">Cantrips Known</td><td class="col-10">Spells Known</td><td>Spell Level</td><td>Ki</td><td>Exploit Weakness</td></tr>
+        </thead>
+        <tr><td> 3rd</td><td>3</td><td> 2</td><td>1</td><td> 2</td><td>—</td></tr>
+        <tr><td> 4th</td><td>3</td><td> 2</td><td>1</td><td> 3</td><td>—</td></tr>
+        <tr><td> 5th</td><td>3</td><td> 3</td><td>1</td><td> 4</td><td>—</td></tr>
+        <tr><td> 6th</td><td>3</td><td> 3</td><td>1</td><td> 5</td><td>1d6</td></tr>
+        <tr><td> 7th</td><td>3</td><td> 4</td><td>2</td><td> 6</td><td>1d6</td></tr>
+        <tr><td> 8th</td><td>3</td><td> 4</td><td>2</td><td> 7</td><td>2d6</td></tr>
+        <tr><td> 9th</td><td>3</td><td> 5</td><td>2</td><td> 8</td><td>2d6</td></tr>
+        <tr><td>10th</td><td>4</td><td> 5</td><td>2</td><td>9</td><td>3d6</td></tr>
+        <tr><td>11th</td><td>4</td><td> 6</td><td>2</td><td>9</td><td>3d6</td></tr>
+        <tr><td>12th</td><td>4</td><td> 6</td><td>2</td><td>10</td><td>4d6</td></tr>
+        <tr><td>13th</td><td>4</td><td> 7</td><td>3</td><td>10</td><td>4d6</td></tr>
+        <tr><td>14th</td><td>4</td><td> 7</td><td>3</td><td>11</td><td>5d6</td></tr>
+        <tr><td>15th</td><td>4</td><td> 7</td><td>3</td><td>11</td><td>5d6</td></tr>
+        <tr><td>16th</td><td>5</td><td> 7</td><td>3</td><td>12</td><td>6d6</td></tr>
+        <tr><td>17th</td><td>5</td><td> 8</td><td>3</td><td>12</td><td>6d6</td></tr>
+        <tr><td>18th</td><td>5</td><td> 8</td><td>3</td><td>13</td><td>7d6</td></tr>
+        <tr><td>19th</td><td>5</td><td> 9</td><td>4</td><td>13</td><td>7d6</td></tr>
+        <tr><td>20th</td><td>5</td><td> 9</td><td>4</td><td>14</td><td>8d6</td></tr>
+      </table> 
+    </description>
+		<sheet alt="Spell Talismans">
+			<description>You have {{ki:points}} magical Talismans inscribed with spells of your choosing.</description>
+		</sheet>
+    <spellcasting name="Ninja" ability="Wisdom" allowReplace="true">
+      <list>Priest</list>
+    </spellcasting>
+    <rules>
+      <grant type="Spell" id="ID_HOMEBREW_SPELL_RETURN" level="3">
+        <set name="spellcasting">Ninja</set>
+      </grant>
+      <select type="Spell" name="Cantrip (Ninja)" supports="Priest, 0" level="3" number="2" spellcasting="Ninja" />
+      <select type="Spell" name="Cantrip (Ninja)" supports="$(spellcasting:list), 0" level="10" number="1" spellcasting="Ninja" />
+      <select type="Spell" name="Cantrip (Ninja)" supports="$(spellcasting:list), 0" level="16" number="1" spellcasting="Ninja" />
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="Priest, 1" level="3" number="2" spellcasting="Ninja" allowReplace="false" />
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), 1" level="5" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2)" level="7" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2)" level="9" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2)" level="11" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2||3)" level="13" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2||3)" level="17" spellcasting="Ninja"/>
+      <select type="Spell" name="Inscription Casting (Ninja)" supports="$(spellcasting:list), (1||2||3||4)" level="19" spellcasting="Ninja"/>
+    </rules>
+  </element>
+  <element name="Exploit Weakness" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_EXPLOIT_WEAKNESS">
+    <description>
+      <p>At 6th level, you know how to cast subtly and exploit a foe’s weakness. Once per turn, you can deal 1d6 bonus damage to one creature you hit with a spell if the they have disadvantage on the saving throw, halved on a successful save.</p>
+      <p>The amount of the extra damage increases as you gain levels in this class, as shown in the Exploit Weakness column of the Ninja table.</p>
+    </description>
+    <sheet>
+      <description>You can deal an extra {{exploit:count}}d{{exploit:die}} damage to one creature you hit with a spell if they have disadvantage on the saving throw, halved on a success.</description>
+    </sheet>
+    <rules>
+      <stat name="exploit:count" value="1" level="6" />
+      <stat name="exploit:count" value="1" level="8" />
+      <stat name="exploit:count" value="1" level="10" />
+      <stat name="exploit:count" value="1" level="12" />
+      <stat name="exploit:count" value="1" level="14" />
+      <stat name="exploit:count" value="1" level="16" />
+      <stat name="exploit:count" value="1" level="18" />
+      <stat name="exploit:count" value="1" level="20" />
+      <stat name="exploit:die" value="6" bonus="die" />
+    </rules>
+  </element>
+  <element name="Ninjutsu" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU">
+    <description>
+      <p>Starting at 9th level, If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throws it makes against the spell this turn.</p>
+      <p>You don’t need to be hidden if an enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and the target creature doesn’t have advantage on the saving throw.</p>
+      <p>Additionally, you gain access to your choice of the Bard, Cleric, Druid, or Wizard spells list from the Conjuration, Evocation, and Illusion schools of spells. They count as Priest spells.</p>
+    </description>
+    <sheet>
+      <description>If you are hidden from a creature when you cast a spell on it, the creature has disadvantage on any saving throw it makes against the spell this turn.</description>
+    </sheet>
+    <rules>
+      <select type="Feat Feature" name="Ninjutsu" supports="Ninjutsu" />
+    </rules>
+  </element>
+  <element name="Ki Flow Mastery" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_KI_MASTERY">
+    <description>
+      <p>At 13th level, you gain proficiency with unarmed strikes which can be used as the weapon componant of spells. When you make an unarmed attack, you can spend 1 ki point to ignore resistance to non-magical damage and add your spellcasting ability modifier to the attacks damage on hit.</p>
+    </description>
+    <sheet>
+      <description>When you make an unarmed attack, you can spend 1 ki point to ignore resistance to non-magical damage and add your spellcasting ability modifier to the attacks damage.</description>
+    </sheet>
+  </element>
+  <element name="Ninja Mimicry" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_MIMICRY">
+    <description>
+      <p>At 17th level, you can spend Ki points to copy a spell you've seen in the last 24 hours. The spell must be of a level you can cast and cost Ki points equal to it's spell level. If you spend time practicing and memorizing the spell, you can write it to talismans and add it to your known spells.</p>
+    </description>
+    <sheet>
+      <description>You can copy a spell you've seen in the last 24 hours to your talismans.</description>
+    </sheet>
+  </element>
+  <element name="Wizard" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU_WIZARD">
+    <supports>Ninjutsu</supports>
+    <description>
+      <p>You gain access to the Wizard spell list.</p>
+    </description>
+    <spellcasting name="Ninja" extend="true">
+      <extend>Wizard, (Conjuration||Evocation||Illusion)</extend>
+    </spellcasting>
+  </element>
+
+  <element name="Cleric" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU_CLERIC">
+    <supports>Ninjutsu</supports>
+    <description>
+      <p>You gain access to the Cleric spell list.</p>
+    </description>
+    <spellcasting name="Ninja" extend="true">
+      <extend>Cleric, (Conjuration||Evocation||Illusion)</extend>
+    </spellcasting>
+  </element>
+
+  <element name="Druid" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_NINJUTSU_DRUID">
+    <supports>Ninjutsu</supports>
+    <description>
+      <p>You gain access to the Druid spell list.</p>
+    </description>
+    <spellcasting name="Ninja" extend="true">
+      <extend>Druid, (Conjuration||Evocation||Illusion)</extend>
+    </spellcasting>
+  </element>
+
+  <element name="Bard" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_NINJA_UNMATCHED_PROWESS_BARD">
+    <supports>Ninjutsu</supports>
+    <description>
+      <p>You gain access to the Bard spell list.</p>
+    </description>
+    <spellcasting name="Ninja" extend="true">
+      <extend>Bard, (Conjuration||Evocation||Illusion)</extend>
+    </spellcasting>
+  </element>
+
+  <!-- Monastic Tradition: Way of the Scribe -->
+    <element name="Way of the Scribe" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_WAY_OF_THE_SCRIBE">
+        <supports>Monastic Tradition</supports>
+        <description>
+            <p>Scribes are monks that study and invoke magical Inscriptions. Scribes tend to focus their studies on certain aspects of calligraphy and martial arts. As such those with similar interests gather together to study and aid each other in mastering aspects of calligraphy, magically imbuing items, and honing their bodies.
+            </p>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_INSCRIPTION_CASTING" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_SENTRY_DEFENCE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS" />
+        </description>
+        <sheet>
+            <description>Channels ki through magical Inscriptions to cast spells.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_INSCRIPTION_CASTING" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH" level="6" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_SENTRY_DEFENCE" level="11" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS" level="17" />
+        </rules>
+    </element>
+    <element name="Inscription Magic" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_INSCRIPTION_CASTING">
+        <description>
+            <p>When you reach 3rd level, you gain access to the Inscription school of spells and use Ki to cast Inscriptions. The Scribe table shows the maximum level that you can cast your spells of 1st level and higher. To cast one of these spells, you must expend ki points equal to the spells level.</p>
+            <p class="indent">
+                <b><i>Weapon Inscriptions. </i></b>You can write Inscriptions on your weapons, attuning to them. You can use a weapon you are attuned to as an Arcane Focus for your spells.</p>
+            <p>Your Inscribed weapons can deliver your spells as if it had cast the spell, at a range of 5ft. or less. The Inscribed weapon must be within 100 feet of you. If the spell requires an Attack roll, you use your Attack modifier for the roll. If the spell requires a weapon, use the Inscribed weapon.</p>
+            <p>You gain proficiency with katanas. </p>
+            <p class="indent">
+                <b><i>Cantrips.</i></b> You learn two cantrips: Return and one other cantrips of your choice from the Inscription spell list. You learn another cantrip of your choice at the 6th, 11th and 16th level.</p>
+            <p class="indent">
+                <b><i>Inscriptions Known. </i></b>You know two 1st level Priest spells of your choice from the Inscription spells list. The Spells Known column of the Scribe table shows when you learn more Priest spells of 1st level or higher. Each of these spells must be an Inscription spell of your choice, and must be of a level of which you can cast.</p>
+            <p>You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when making an attack roll with a spell. </p>
+            <p>You use your Ki save DC for your Spell save DC.</p>
+            <p class="center">
+                <strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+            <p class="center">
+                <strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+            <p><b>Inscription Restrictions.</b> Enchantment, Evocation, and Necromancy schools of magic cannot be inscribed as they stray too far from monastic teachings and tradition. As such, no Inscriptions can match their particular magics, and you cannot cast these spells with ki points even if you learn them.</p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <spellcasting name="Scribe" ability="Wisdom" allowReplace="true">
+            <list>Priest</list>
+        </spellcasting>
+        <rules>
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_RETURN" level="3">
+                <set name="spellcasting">Scribe</set>
+            </grant>
+            <select type="Spell" name="Cantrip (Scribe)" supports="Priest, 0" level="3" number="2" spellcasting="Scribe" />
+            <select type="Spell" name="Cantrip (Scribe)" supports="$(spellcasting:list), 0" level="6" number="2" spellcasting="Scribe" />
+            <select type="Spell" name="Cantrip (Scribe)" supports="$(spellcasting:list), 0" level="9" number="1" spellcasting="Scribe" />
+            <select type="Spell" name="Cantrip (Scribe)" supports="$(spellcasting:list), 0" level="13" number="1" spellcasting="Scribe" />
+            <select type="Spell" name="Cantrip (Scribe)" supports="$(spellcasting:list), 0" level="17" number="1" spellcasting="Scribe" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="Priest, 1" level="3" number="2" spellcasting="Scribe" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2)" level="6" number="2" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2)" level="9" number="1" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2||3)" level="11" number="1" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2||3)" level="13" number="1" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2||3||4)" level="15" number="1" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2||3||4)" level="17" number="1" spellcasting="Scribe" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Scribe)" supports="$(spellcasting:list), (1||2||3||4||5)" level="19" number="1" spellcasting="Scribe" allowReplace="true" />
+
+            <!-- todo: replace spells -->
+            
+			      <grant type="Proficiency" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+		
+        </rules>
+    </element>
+
+    <element name="Written to Flesh" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH">
+        <description>
+            <p>At 6th level you can inscribe one spell directly to your skin, allows you to use your body as a focus for that spell. You can use your unarmed strikes for spells that require a melee weapon. When you hit a creature with a spell that has a range of touch, you can choose to add your unarmed damage to the spell. You inscribe an additional spell to your body at the 11th and 17th level.</p>
+            <p>You gain access to your choice of the Cleric, Druid, Sorcerer, or Wizard spell list. You choose and an additional spell list at the 6th and 11th level.</p>
+        </description>
+        <sheet>
+            <description>You have {{written:inscriptions}} spells inscribed to your body and can cast them without a focus. You can use your unarmed strikes for spells that require a melee weapon. You can deal an additional 1d{{martial arts:dice}}+{{martial arts:damage}} damage to a creature you hit with a spell with a range of touch. </description>
+        </sheet>
+        <rules>
+            <select type="Feat Feature" name="Written to Flesh" supports="Written to Flesh" />
+			      <stat name="written:inscriptions" value="1" />
+			      <stat name="written:inscriptions" value="1" level="11" />
+			      <stat name="written:inscriptions" value="1" level="17" />
+        </rules>
+    </element>
+
+    <element name="Sentry Defense" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_SENTRY_DEFENCE">
+        <description>
+            <p>At 11th level, your weapons automatically defend you from attacks. For every weapon you're attuned to that is hovering within 5 ft of you, you gain a +1 to ac. When an attack misses you when it otherwise would have hit from this feat, one of the weapons fall to the ground, and any of your spells effecting it ends.</p>
+        </description>
+        <sheet>
+            <description>For every weapon you're attuned to that is hovering within 5 ft of you, you gain a +1 to ac.</description>
+        </sheet>
+    </element>
+
+    <element name="Unmatched Prowess" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS">
+        <description>
+            <p>By 17th level, Your mastery of Inscriptions and spell mimicry has approached perfection. You can use Wisdom instead of Strength for the attack and damage rolls and gain access to another spell list from any class of your choice.</p>
+        </description>
+        <sheet>
+            <description>You can use Wisdom instead of Strength for the attack and damage rolls.</description>
+        </sheet>
+        <rules>
+            <select type="Feat Feature" name="Unmatched Prowess" supports="Written to Flesh||Unmatched Prowess" />
+        </rules>
+    </element>
+
+    <element name="Wizard" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH_WIZARD">
+        <supports>Written to Flesh</supports>
+        <description>
+            <p>You gain access to the Wizard spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Wizard, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Cleric" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH_CLERIC">
+        <supports>Written to Flesh</supports>
+        <description>
+            <p>You gain access to the Cleric spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Cleric, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Sorcerer" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH_SORC">
+        <supports>Written to Flesh</supports>
+        <description>
+            <p>You gain access to the Sorcerer spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Sorcerer, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Druid" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_WRITTEN_TO_FLESH_DRUID">
+        <supports>Written to Flesh</supports>
+        <description>
+            <p>You gain access to the Druid spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Druid, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Bard" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS_BARD">
+        <supports>Unmatched Prowess</supports>
+        <description>
+            <p>You gain access to the Bard spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Nard, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Paladin" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS_PALADIN">
+        <supports>Unmatched Prowess</supports>
+        <description>
+            <p>You gain access to the Paladin spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Paladin, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+    <element name="Ranger" type="Feat Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_SCRIBE_UNMATCHED_PROWESS_RANGER">
+        <supports>Unmatched Prowess</supports>
+        <description>
+            <p>You gain access to the Ranger spell list.</p>
+        </description>
+        <spellcasting name="Scribe" extend="true">
+            <extend>Ranger, (!Evocation, !Enchantment, !Necromancy)</extend>
+        </spellcasting>
+    </element>
+
+
+<!-- Path of the Oni -->
+    <element name="Path of the Oni" type="Archetype" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_PATH_OF_THE_ONI">
+        <supports>Primal Path</supports>
+        <description>
+            <p>The glory of battle drives these veteran warriors ever forward. Their spirit for battle allows them to manifest Ki, gaining the ability to perform great feats and cast priest spells.</p>
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_SPIRIT_OF_BATTLE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_BATTLE_CASTER" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_PURIFYING_RAGE" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_ONI_MAGIC" />
+            <div element="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_DEMONIC_FURY" />
+        </description>
+        <rules>
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_SPIRIT_OF_BATTLE" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_BATTLE_CASTER" level="3" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_PURIFYING_RAGE" level="6" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_ONI_MAGIC" level="10" />
+            <grant type="Archetype Feature" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_DEMONIC_FURY" level="17" />
+        </rules>
+    </element>
+    <element name="Spirit of Battle" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_SPIRIT_OF_BATTLE">
+        <description>
+            <p>Starting at 3rd level, your training allows you to harness the mystic energy of ki. Your access to this energy is represented by a number of ki points. You gain Ki points in battle, up to a maximum of your barbarian level.</p>
+            <p class="indent">You gain Ki points equal to your wisdom modifier when you rage. Additionally, whenever you deal or take damage while enraged, you gain 1 Ki point.</p>
+            <p class="indent">You can spend these points to fuel various Abilities and spells.</p>
+            <p class="indent">When you finish a long rest your ki points are reset to zero. You lose half your Ki points on a short rest.</p>
+        </description>
+        <sheet>
+            <description>You gain {{wisdom:modifier}} ki points when you rage and dealing or recieving damage while raging grants 1 ki. You lose half your ki on a short rest and lose all your ki on a long rest.</description>
+        </sheet>
+    </element>
+    <element name="Battle Caster" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_BATTLE_CASTER">
+        <description>
+            <p>When you reach 3rd level, you gain access to the Priest school of spells and use Ki to cast spells. The Oni table shows the maximum level that you can cast your spells of 1st level and higher. To cast one of these spells, you must expend ki points equal to the spells level. You can only cast spells while raging.</p>
+            <p class="indent">You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when making an attack roll with a spell. </p>
+            <p class="indent">You use your Ki save DC for your Spell save DC.</p>
+            <center>
+              <p>
+                <strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier
+              </p>
+              <p>
+                <strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier
+              </p>
+              </center>
+              <strong>
+              <em>Inscriptions</em>
+              </strong>
+              <p>You can write spells to your weapons and armor, allowing you to channel your ki through them to cast spells. You can use inscribed weapons as a Priest Focus for your spells. </p>
+              <strong>
+              <em>Cantrips</em>
+              </strong>
+              <p>You learn the return cantrip from the Priest spell list. You learn another cantrip from the Priest spell list at the 6th, 10th and 14th level.</p>
+              <strong>
+              <em>Inscriptions Known</em>
+              </strong>
+              <p> You know one 1st level priest spell of your choice from the Inscription spells list. You learn an additional spell from the Priest spell list at the 6th, 10th, and 14th level. Each of these spells must be a level that you can cast. </p>
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <spellcasting name="Oni" ability="Wisdom" allowReplace="true">
+            <list>Priest</list>
+        </spellcasting>
+        <rules>
+            <grant type="Spell" id="ID_HOMEBREW_SPELL_RETURN" level="3">
+                <set name="spellcasting">Oni</set>
+            </grant>
+            <select type="Spell" name="Cantrip (Oni)" supports="$(spellcasting:list), 0" level="6" number="1" spellcasting="Oni" />
+            <select type="Spell" name="Cantrip (Oni)" supports="$(spellcasting:list), 0" level="11" number="1" spellcasting="Oni" />
+            <select type="Spell" name="Cantrip (Oni)" supports="$(spellcasting:list), 0" level="15" number="1" spellcasting="Oni" />
+            <select type="Spell" name="Inscription Casting (Oni)" supports="$(spellcasting:list), 1" level="3" number="1" spellcasting="Oni" />
+            <select type="Spell" name="Inscription Casting (Oni)" supports="$(spellcasting:list), (1||2)" level="6" number="1" spellcasting="Oni" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Oni)" supports="$(spellcasting:list), (1||2||3)" level="11" number="1" spellcasting="Oni" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Oni)" supports="$(spellcasting:list), (1||2||3||4)" level="15" number="1" spellcasting="Oni" allowReplace="true" />
+            <select type="Spell" name="Inscription Casting (Oni)" supports="$(spellcasting:list), (1||2||3||4||5)" level="19" number="1" spellcasting="Oni" allowReplace="true" />
+        </rules>
+    </element>
+    <element name="Purifying Rage" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_PURIFYING_RAGE">
+        <description>
+            <p>Beginning at 6th level, you are immune to disease and poison while raging. If you are diseased or poisoned when you enter your rage, the effect is cured when you rage.</p>
+        </description>
+        <sheet>
+            <description>You are immune to disease and poison while raging, and when you rage any disease or poison effecting you is cured.</description>
+        </sheet>
+    </element>
+
+    <element name="Oni Magic" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_ONI_MAGIC">
+        <description>
+            <p>At 10th level, you can cast up to two Priest spells on your turn instead of one while raging. They use actions as they normally would.</p>
+        </description>
+        <sheet>
+            <description>You can cast two spells on your turn while you are raging.</description>
+        </sheet>
+    </element>
+
+    <element name="Demonic Rage" type="Archetype Feature" source="The Priest Class" id="ID_HOMEBREW_ARCHETYPE_FEATURE_ONI_DEMONIC_FURY">
+        <description>
+            <p>At 14th level, your rage grants you proficiency in all saving throws.</p>
+            <p class="indent">Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.</p>
+        </description>
+        <sheet usage="1 ki">
+            <description>When you make a saving throw and fail, you can reroll it and take the second result.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_INTELLIGENCE"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM"/>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA"/>
+        </rules>
+    </element>
+
+  <!-- Priest Spell List -->
+  <element name="Return" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_RETURN">
+    <supports>Priest</supports>
+    <description>
+      <p>Choose a weapon within range that you're proficient with and is not being held by another creature. The weapons must be a size with which you can weild. The weapon flies up to 60 feet towards you, moving through creatures' spaces and around objects, taking the most direct path it can to reach you. If the weapon flies through a hostile creature's space, the creature must make a Dexterity saving throw. On a failed save, it takes the weapons damage, halved on a success. If the weapon does not reach you by the end of this flight, the spell ends.</p>
+      <p>Once the weapon reaches you, it floats around you in your space. While it is floating in this way, it is treated as if it's being held by you and ability checks made with it use your spell casting modifier instead. If a creature other than you ever holds the weapon, the spell ends.</p>
+      <p>The amount of weapons you can target with this spell increases to 2 at 6th level, 3 at 11th level, and 4 at 17th level. The weapons all move simultaneously.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+  <element name="Fling" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FLING">
+    <supports>Bard, Priest</supports>
+    <description>
+      <p>Choose a weapon within range that you're proficient with and is not being held by another creature. The weapon flies up to 10 feet, attacking one creature of your choice within 5 feet of it. Make a spell attack against the creature, dealing the weapons damage + your spellcasting ability modifier on hit.</p>
+      <p>After the weapon attacks, it floats in its space. While it is floating in this way, it is treated as if it's being held by you and ability checks made with it use your spell casting modifier instead. If a creature other than you ever holds the weapon, the spell ends.</p>
+      <p>The amount of weapons you can target with this spell increases to 2 at 6th level, 3 at 11th level, and 4 at 17th level. The weapons can strike one target or several and they all strike simultaneously.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+  <element name="Hone" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_HONE">
+    <supports>Bard, Cleric, Priest</supports>
+    <description>
+      <p>You touch the weapons edge, magically enhancing its hardness and sharpness. For the duration, the weapon uses your Spellcasting Ability instead of Strength for the Attack and Damage Rolls using the weapon and the weapon's damage die becomes a d8 if it isn't higher already. The weapon also becomes magical, if it isn't already. The spell ends if another creature holds the weapon or you cast this spell again.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a stone, a drop of oil, a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Shell" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SHELL">
+    <supports>Bard, Cleric, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b>  when a creature you can see would be hit by an attack, a florescent magical circle appears and intercepts the attack. The attacker has disadvantage on the triggering attack, potentially causing it to miss.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+  <element name="Barrier" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_BARRIER">
+    <supports>Bard, Cleric, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when a creature you can see would fail a saving throw from a spell, florescent magical runes appear to protect them. The creature gains advantage on the saving throw for the triggering spell, potentially reducing the effect.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+  <element name="Air Dodge" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_AIR_DODGE">
+    <supports>Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when you would take damage from an attack while you're airborne. until the start your next turn or until you land, you add your spellcasting ability modifier to your AC, including against the triggered attack.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">1 round</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Guided Path" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_GUIDED_PATH">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p>You focus on a creature you can see within range, creating an illusory ribbon or string from a weapon you can see to the targeted creatures weak point. This string is slack, showing the optimal angle of attack and becoming taught as the weapon strikes. The illusion is visible to the wielder regardless of sight. Attacks made with the weapon against the target ignore disadvantage based on sight and deal an additional 1d6 damage on a critical strike, after which the spell ends.</p>
+      <p>This spells bonus damage increases by 1d6 at 6th level, 11th level, and 17th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">0</set>
+      <set name="school">Divination</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 round</set>
+      <set name="range">15 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of cloth or thread</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+  
+  <element name="Force Push" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FORCE_PUSH">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>Creatures within 10ft. of you must make a Strength saving throw or take 1d4 force damage and get shoved until they are 10ft. away from you.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self(10ft. radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <!-- <element name="Precision" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_PRECISION">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>As part of the action used to cast this spell, you must cast a spell that requires a spell attack roll against one creature within range, otherwise this spell fails. The spell gains +1 to attack and damage rolls.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the bonus to attack and damage rolls increases to +2 at 3rd level, +3 at 5th level, +3 at 7th level, and +4 at 9th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">20 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <!-- <element name="Push" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_PUSH">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> a creature in range becomes airborne. An airborne creature of your choice is pushed 15ft. away from you. If the creature has a fly speed, it makes a Strength saving throw, resisting this spell on a success. If the creature collides with a surface from this spell, it takes 1d6 bludgeoning damage. If the creature collides with another creature from this spell, they both take 1d6 bludgeoning damage. </p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the creature is pushed an additional 5 ft. and takes an addition 1d6 bludgeoning damage for each slot level above the 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <!-- <element name="Pull" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_PULL">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> a creature in range becomes airborne. An airborne creature of your choice is pulled 15ft. towards you. If the creature has a fly speed, it makes a strength saving throw, resisting the spell on a success. If the creature gets within your melee reach from this spell, you can attack it. On hit, you deal an additional 1d4 damage and end the creatures movement.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the creature is pulled an additional 5 ft. and takes an addition 1d4 bonus damage for each slot level above the 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">20 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <element name="Flow" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FLOW">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b>a creature in range becomes airborne. An airborne creature within range is pulled 15ft. towards you or pushed 15 ft. away from you. If the creature has a fly speed, it makes a strength saving throw, resisting the spell on a success. If the creature gets within your melee reach from this spell, you can attack it as part of the action of this spell. On hit, you deal an additional 1d6 damage and end the creatures movement. If the creature collides with a surface from this spell, it takes 1d6 bludgeoning damage. If the creature collides with another creature from this spell, they both take 1d6 bludgeoning damage.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the creature is moved an additional 5 ft. and takes an addition 1d6 bonus damage for each slot level above the 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">20 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Ki Blast" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_KI_BLAST">
+    <supports>Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> A blast of ki energy streaks towards a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 force damage.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 2d8 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">20 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Wind Step" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_WIND_STEP">
+    <supports>Druid, Priest</supports>
+    <description>
+      <p>You move up to 10ft., freely moving through other creatures spaces without provoking attacks of opportunity. If you would move to a space occupied by another creature, you instead move to an unoccupied space of your choice next to that creature. If you move through a creatures space during this effect, you gain advantage on your next attack against that creature.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 2nd level or higher, you can move an additional 5ft. for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Iron Flesh" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_IRON_FLESH">
+    <supports>Bard, Priest</supports>
+    <description>
+      <p>You channel energy into your skin, magically hardening it like steel but slowing your movement. Until the spell ends, you gain resistance to Bludgeoning, Piercing, and Slashing damage and your AC becomes 18 if it isn't higher already. Additionally, your movement is reduced to 10ft. You cannot take the dash, dissengage, or hide action and attempts to forcefully move you against your will are made at disadvantage while concentrating on this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 round</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Summon Talisman" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SUMMON_TALISMAN">
+    <supports>Priest</supports>
+    <description>
+      <p>You summon a talisman inscribed with a spell you know into your hand. The talisman disapears when you use it to cast the spell inscribed to it. It otherwise acts identically to a priest talisman.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you summon an additional talisman for each spell slot above the 1st.</p>
+			<div class="reference">
+				<div element="ID_HOMEBREW_INFORMATION_TALISMAN" />
+			</div>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Charge Energy" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_CHARGE_ENERGY">
+    <supports>Priest</supports>
+    <description>
+      <p>You charge energy unto yourself. When you start your turn concentrating on this spell, you gain charges equal to the level you originally cast it. You must spend another spell slot equal to the level you cast this spell to do so, otherwise the spell ends. If you cast another spell while concentrating on this spell, the spells level is increased (up to half your proficiency bonus) by the charges you have stored, after which this spell ends and you lose all unspent charges.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Mantra" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_MANTRA">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>As part of the action used to cast this spell, you must also cast a spell on a creature within that spells range. The spell uses actions as normal. Spells that require a reaction can react to this spell as if it's reaction were triggered. Any non-damaging effects of the spell remain as long as you concentrate on this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Feather Step" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FEATHER_STEP">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p>You magically lighten a creatures steps. A creature you touch gains a bonus to Dexterity (Stealth) checks equal to your spellcasting ability modifier. The creatures footfalls are dulled and they leave behind no tracks.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+    <rules />
+  </element>
+  
+  <element name="Physical Shield" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_PHYSICAL_SHIELD">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>You gain immunity to Bludgeoning, Piercing, and Slashing damage. If you would take Bludgeoning, Piercing, or Slashing damage, instead divide the damage by 10 (rounded up) and expend spell slots equal to that number (minimum of 1), divided as you wish. If the damage exceeds or expends your available spell slots, the spell ends. You can use your reaction to end the spell at any time.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Enhance Senses" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_ENHANCE_SENSE">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p>You enhance your senses of sight, hearing, and touch. You have advantage on perception checks that involve sight or hearing. You have disadvantage on saving throws that would blind or deafen you. Your sight range is doubled and you gain blindsense with a range of 15 ft.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Distract" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_DISTRACT">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p>Choose a weapon within range that you're attuned to. The weapon attempts to distract nearby hostile creatures with a flash of light or rapid movements. While the weapon is affected by this spell, it is treated as if it's being held by you and ability checks made with is it use your spell casting modifier instead. If a creature other than you ever holds the weapon, the spell ends. If an attack is made against a hostile creature withing 5 ft. of the distracting weapon, they must make a Wisdom saving throw. The attack is made with advantage on a failed save, after which the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Fireblast" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FIREBLAST">
+    <supports>Priest</supports>
+    <description>
+      <p>You exhale energy through a magical symbol, creating a ball of fire. All creatures within a 10 ft. cone must succeed a dexterity saving throw or take 4d6 fire damage, halved on a success. </p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">self (10ft. cone)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Explosion" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_EXPLOSION">
+    <supports>Priest</supports>
+    <description>
+      <p>A bright flash from a point you touch blossoms with a low roar into an explosion of flame. Each creature in a 10-foot-radius sphere centered on that point must make a Dexterity saving throw. A targets takes 6d6 fire damage on a failed save, or half as much damage on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Bounce" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_BOUNCE">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p>Strike the ground channeling energy through it. Make a spell attack against a creature on the ground within range. On hit it's lifted 10ft. into the air. At the end of your turn, an enemy creature without a fly speed effected by this spell must succeed a dexterity saving throw or suffer falling damage and fall prone.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">15 foot</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Whirl" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_WHIRL">
+    <supports>Priest</supports>
+    <description>
+      <p>You make a whirling attack, propelling your weapon with magical power in a circle around you. All creatures within your reach make a dexterity saving throw. On a failed save, they take your weapons attack damage, halved on a success.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 foot</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Rampage" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_RAMPAGE">
+    <supports>Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when a creature you can see falls unconscious. Until the spell ends, you have advantage on melee attacks, which deal an additional 1d4 damage on hit. Attacks made against you have advantage and you gain resistance to non-magical Bludgeoning, Piercing, and Slashing damage. If a creature falls unconcious while you are under the effect of this spell, you may use your reaction to cast this spell again at the same level without expending spell slots. </p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the bonus damage increases by 1d4 for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Substitute" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SUBSTITUTE">
+    <supports>Bard, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when you are targeted by a spell or attack. You instantly change places with an object within range that is of medium size or smaller. Roll a d20 to determine whether the attack instead targets the replacement. You must roll an 11 or higher for the attack to instead hit the substitute. </p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b>When you cast this spell using a spell slot of 3rd level or higher, the roll you must make to avoid damage is reduces by 2 for every spell slot above the 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 ft.</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an object of the same size as the caster</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <!-- <element name="Subtlety" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SUBTLETY">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>As part of the action used to cast this spell, you must cast a spell that requires a spell attack roll against a creature within range, otherwise this spell fails. The spell deals an extra 1d6 damage to one creature you hit with the spell if you have advantage on the spells hit.</p>
+      <p>You don’t need advantage on the hit roll if another enemy of the target is within 5 feet of it, that enemy isn’t incapacitated, and you don’t have disadvantage on the attack roll.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you gain an addition 1d6 bonus damage for every spell slot above the 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">10 foot</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <element name="Spirit Guide" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SPIRIT_GUIDE">
+    <supports>Cleric, Druid, Priest</supports>
+    <description>
+      <p>You manifest a wisp of spiritual energy. The wisp is a creature with 60ft. of truesight, a fly speed of 60ft., sheds bright light in a 5ft. radius and sheds dim light for an additional 10ft. You can command the wisp to move as a bonus action. If a hostile creature is seen by the wisp, it sheds bright light in a 20ft. radius and dim light for an additional 20ft. that reveals invisible creatures. The wisp is immune to all non magical damage and can be dispelled like any other spell. Casting this spell again dispels any existing spirit guides that you control.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you create an additional wisp for every spell level above the 2nd. They all move simultaneously.</p>
+			<div class="reference">
+				<div element="ID_HOMEBREW_PRIEST_CREATURE_SPIRIT_GUIDE" />
+			</div>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">10 foot</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+    <rules />
+  </element>
+
+	<element name="Spirit" type="Information" source="The Priest Class" id="ID_HOMEBREW_PRIEST_CREATURE_SPIRIT_GUIDE">
+		<description>
+			<p><em>Tiny undead, unaligned</em></p>
+			<ul class="unstyled mb">
+				<li><strong>Armor Class</strong> 5 </li>
+				<li><strong>Hit Points</strong> 1 </li>
+				<li><strong>Speed</strong>  fly 60 ft. </li>
+			</ul>
+			<table style="text-align:center">
+				<thead>
+					<tr><td>STR</td><td>DEX</td><td>CON</td><td>INT</td><td>WIS</td><td>CHA</td></tr>
+				</thead>
+				<tr><td>3 (-5)</td><td>3 (-5)</td><td>3 (-5)</td><td>3 (-5)</td><td>14 (+2)</td><td>3 (-5)</td></tr>
+			</table>
+			<ul class="unstyled mb">
+				<li><strong>Damage Immunities</strong> Bludgeoning, Piercing, and Slashing From Nonmagical Attacks</li>
+				<li><strong>Senses</strong> Truesight 60 ft. (Blind Beyond This Radius), passive Perception 12</li>
+				<li><strong>Condition Immunities</strong> Blinded, Charmed, Deafened, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned</li>
+			</ul>
+			<p><strong><em>Magical Effect.</em></strong> The spirit guide is destroyed while in the area of an antimagic field or if targeted by dispel magic.</p>
+			<p><strong><em>Incorporeal Movement. </em></strong> The spirit guide can move through other creatures and objects as if they were difficult terrain. The spirit guide is destroyed if it ends its turn inside an object.</p>
+			<p><strong><em>Illumination.</em></strong> The spirit guide sheds bright light in a 5-foot radius and dim light for an additional 10 feet.</p>
+			<p><strong><em>Revealing Light.</em></strong> If a hostile creature is seen by the spirit guide, it sheds bright light in a 20-foot radius and dim light for an additional 20 feet that reveals invisible creatures.</p>
+		</description>
+	</element>
+
+  <!-- <element name="Quicken" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_QUICKEN">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when you make a weapon attack or cast a cantrip as an action. You can make the attack or cast the cantrip as a bonus action instead.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <!-- <element name="Double Down" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_DOUBLE_DOWN">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when you make a weapon attack or cast a cantrip. You cast another cantrip of your choice as part of the action to cast this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element> -->
+
+  <element name="7 Gates" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SEVEN_GATES">
+    <supports>Priest</supports>
+    <description>
+      <p>You force magical energy through your body, granting you impossible strength and speed, at the cost of physical exhaustion. Until the spell ends, you can’t cast spells, and you gain the following benefits:</p>
+      <ul>
+        <li>You gain your spellcasting ability modifier in temporary hit points per spell level. If any of these remain when the spell ends, they are lost.</li>
+        <li>When you hit a target with a melee attack, that target takes 1d4 force damage per spell level above the 2nd at which you cast this spell.</li>
+        <li>You gain 5ft. of movement per spell level.</li>
+        <li>You have proficiency with all armor, shields, simple weapons, and martial weapons.</li>
+        <li>You have proficiency on Strength, Dexterity, and Constitution saving throws.</li>
+        <li>If cast at 5th level or higher, you have advantage on Strength, Dexterity, and Constitution saving throws and attacks against you are made at disadvantage.</li>
+        <li>You can attack twice, instead of once, when you take the Attack action on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li>
+      </ul>
+      <p class="indent">Immediately after the spell ends, you must succeed on a DC 10 + spell level Constitution saving throw or suffer a point of exhaustion per spell level above the 2nd you cast this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords">force</set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Extend" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_EXTEND">
+    <supports>Druid, Priest</supports>
+    <description>
+      <p>Choose a melee weapon you're proficient with. The weapons reach is doubled for the duration of this spell.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Adhere" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_ADHERE">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>You magically adhere two objects to each other. The objects are permanently attached until the spell ends. If you concentrate on the spell for the entire duration, the effect lasts until dispelled or until you cast it again.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+  <element name="Adrenaline Rush" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_ADRENALINE_RUSH">
+    <supports>Druid, Priest</supports>
+    <description>
+      <p><b>Reaction trigger.</b> when you enter combat. You add your spellcasting ability modifier to your initiative.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 reaction</set>
+      <set name="duration">1 minute</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Spirit Familiar" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SPIRIT_FAMILIAR">
+    <supports>Priest</supports>
+    <description>
+      <p>You gain the service of a spirit familiar, spirit energy that takes the form of a creature you've seen. The creature cannot be a constuct or humanoid and must be a CR of 1/8 or lower. </p>
+      <p class="indent">Appearing in an unoccupied space within range, the familiar has the statistics of the chosen form, though it is considered undead and it can speak any languages you know.</p>
+      <p class="indent">The creature is friendly to you and your companions. In combat, the familiar shares your initiative count, but it takes its turn immediately after yours. It obeys verbal commands that you issue to it (no action required by you). If you don’t issue any, it defends itself but otherwise takes no action.</p>
+      <p class="indent">When the familiar drops to 0 hit points, it disappears, leaving behind no physical form. It reappears after you cast this spell again.</p>
+      <p class="indent">As an action, you can turn your familiar invisible. Maintaining this invisibility requires you to concentrate as if on a spell. As a reaction on your turn, you can have the familiar appear in an unoccupied space within the spells range of you or the familiar. Doing so causes you to lose concentration.</p>
+      <p class="indent">You can’t have more than one spirit familiar at a time. If you cast this spell while you already have a spirit familiar, you instead cause it to adopt a new form. Choose a creature you've seen with a CR of 1/8 or less. Your familiar transforms into the chosen creature.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 hour</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a Talisman and 100 gp worth of ink and incense that must be consumed by fire in a clay censer</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+
+  <element name="Strike Through" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_STRIKE_THROUGH">
+    <supports>Priest</supports>
+    <description>
+      <p>As part of the action used to cast this spell, you must take the unarmed attack action against one creature within range, otherwise the spell fails. On hit, the attacks damage is halved and the creature makes a constitution saving throw. On a failed save, the creature suffers a point of exhaustion.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 turn</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Flying Weapon" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_FLYING_WEAPON">
+    <supports>Priest</supports>
+    <description>
+      <p>Choose a weapon you're proficient with. When you cast this spell and as a bonus action on your subsequent turns, you can move the weapon up to 60 feet, moving through creatures' spaces and around objects. If the weapon flies through a hostile creature's space, the creature must make a Dexterity saving throw. On a failed save, it takes the weapon's damage, halved on a success. After it's movement, it floats in it's space. While it is floating in this way, it is treated as if it's being held by you and ability checks made with is it use your spell casting modifier instead. If a creature other than you ever holds the weapon, the spell ends.</p>
+      <p>You can use your reaction to have the weapon return at any time. If you do so, it flies up to 90 feet towards you, dealing damage in the same way as when you command it to move. If the weapon does not reach you by the end of this flight, or you move more than 60 feet away from the weapon, the spell ends.</p>
+      <p>Once the weapon reaches you, it floats around you in your space until the spell ends.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, the amount of weapons you can target with this spell increases to 2 at 5th level, 3 at 7th level, and 4 at 9th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a weapon</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Split Essence" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SPLIT_ESSENCE">
+    <supports>Priest</supports>
+    <description>
+      <p>You manifest a phantasmal copy of yourself. The illusion is telepathically linked to you, allowing you to perceive through both at once. it has half your current hit points. If the clone is killed, you take psycic damage equal to the clones maximum hp. You give the copy any number of your prepared spells when you create it. On your turn, you can use actions from the phantasm instead of yourself and the phantasm can cast any spells you gave it. You cannot use the spells from yourself during this time, or vice-versa. For instance, you can have the phantasm move and use fling, then you could use return as your bonus, ending your turn. You would not, however; be able to use fling while your clone has this Insription on it, and it will not be able to use return. Use your spell DC, spell modifier and attack modifiers. The phantom, as well as it's equipment, seem realistic to the senses but can not reproduce any of the equipments magical effects.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Spirit Weapon" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SPIRIT_WEAPON">
+    <supports>Priest</supports>
+    <description>
+      <p>Choose a weapon you're proficient with. You conjure a spectral copy of the weapon that is double the height, width, and length and considered one size category larger. The weapons damage and reach are double the copied weapon and it deals force damage. When you cast the spell and as a bonus action on your subsequent turns, you can move the weapon up to 60 feet, moving through creatures' spaces and around objects. If the weapon flies through a hostile creature's space, the creature must make a Dexterity saving throw. On a failed save, it takes the weapon's damage + your spellcasting ability modifier, halved on a success.</p>
+      <p>After it's movement, it floats in it's space. While it is floating in this way, it is treated as if it's being held by you and ability checks made with is it use your spell casting modifier instead. If a creature other than you ever holds the weapon, the spell ends.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the amount of weapons you conjure increases to 2 at 6th level, and 3 at 8th level.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round</set>
+      <set name="range">10 foot</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Essence Thief" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_ESSENCE_THIEF">
+    <supports>Priest</supports>
+    <description>
+      <p>You touch a creature and place a runic mark on them. Make a melee spell attack against the target. On hit, you deal 8d8 force damage and manifest a phantasmal copy of the target on an unoccupied space within 5ft. of them. The copy is telepathically linked to you and has all the knowledge of the copied creature. The phantasms hit points are equal to the amount of damage the target took from this spell and uses the casters statistics. You can use an actions from the phantasm instead of yourself. For instance, you can have the phantasm move and attack and then take a bonus action yourself, finishing your turn. The phantasm uses your spell DC and spellcasting modifier for spells, and your attack modifiers for attacks. The phantom, as well as it's equipment, seem realistic to the senses but can not reproduce any of the equipments magical effects. If you concentrate on the spell for the entire duration, the phantasm remains until you cast this spell again or the phantasm is slain.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, you deal and additional 2d8 force damage for each slot level above the 5th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Spirit Gaurdian" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_SPIRIT_GAURDIAN">
+    <supports>Druid, Priest</supports>
+    <description>
+      <p>You manifest a beast you know with a CR of 4 or less to aid you. The creature is identical in stats to the copied creature and shares your space. When you make an attack, the spirit attacks with you if it has an attack in range. Attacks against you are made on the spirit instead, using it's ac and hit points. If the spirit drops to 0 Hit Points, it is destroyed. Any excess damage carries over to you.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, the maximum CR of your guardian increases by 1 for each spell level above the 5th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Asura" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_ASURA">
+    <supports>Priest</supports>
+    <description>
+      <p>You manifest a spectral arm wielding a copy of a weapon you're proficient with. The arm shares your space and attacks with you, using your spell casting ability modifier instead of strength on attack and damage rolls. While this spell is active, attacks against you are made at disadvantage. If an attack hits you, you can use your reaction to sacrifice the spectral arm, reducing the damage by 2d10 + your spellcasting ability modifier.</p>
+      <p class="indent">
+        <b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 7th level or higher, you summon an additional arm per spell level above the 6th. When you attack, up to half of the spectral arms (rounded up) attack with you.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="You're Already Dead" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_YOU_ARE_DEAD">
+    <supports>Bard, Cleric, Druid, Priest</supports>
+    <description>
+      <p>As part of the action used to cast this spell, you must make an unarmed attack against one creature within range, otherwise the spell fails. On hit, the attacks damage is halved and the creature makes a constitution saving throw against your spell save DC. On a failed save the creature suffers 5 points of exhaustion. If the creature attempts to move or take any action before the spell ends, it immediately suffers an additional point of exhaustion.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">6</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 turn</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+    <rules />
+  </element>
+
+  <element name="Lucky Charm" type="Spell" source="The Priest Class" id="ID_HOMEBREW_SPELL_LUCKY_CHARM">
+    <supports>Priest</supports>
+    <description>
+      <p>You imbue an object with fortuitous magic. The object has charges equal to your spellcasting ability modifier (minimum of 1). A creature holding this object on their person can expend a charge to reroll a 1 on a d20. The charges are fully restored every dawn. If you cast this spell on a different object, the spell effect disappear from the previous object.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Divination</set>
+      <set name="time">1 hour</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">touch</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an object</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+    <rules />
+  </element>
+
+<!-- Items -->
+  
+	<element name="Katana" type="Weapon" source="The Priest Class" id="ID_HOMEBREW_WEAPON_KATANA">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="versatile">2d4</set>
+			<set name="proficiency">ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="The Priest Class" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+		</rules>
+	</append>
+  
+	<element name="Spell Talisman" type="Weapon" source="The Priest Class" id="ID_HOMEBREW_WEAPON_TALISMAN">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_DAMAGE_TYPE_FORCE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_ADHESIVE</supports>
+		<description>
+			<p>A paper talisman with intricate symbols painted along the surface.</p>
+      <div element="ID_INTERNAL_WEAPON_PROPERTY_ADHESIVE" />
+      <div element="ID_INTERNAL_WEAPON_PROPERTY_REMOTE_FOCUS" />
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="sp">1</set>
+			<set name="weight" lb="0.1">0.1 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">30/90</set>
+			<set name="damage" type="force">0</set>
+			<set name="proficiency">ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_TALISMAN</set>
+		</setters>
+	</element>
+
+	<element name="Spell Talisman" type="Information" source="The Priest Class" id="ID_HOMEBREW_INFORMATION_TALISMAN">
+		<description>
+			<p><em>Simple Melee Weapon, common</em></p>
+			<p>A paper talisman with intricate symbols painted along the surface. </p>
+			<p><strong><em>Properties.</em></strong> Finesse, Light, Thrown (30/90), Adhesive</p>
+			<p><strong><em>Damage.</em></strong> 0 </p>
+			<p><strong><em>Adhesive.</em></strong> When this weapon hits, it adheres to the target. Any creature can make a strength ability check against your spell save dc (10 minimum) to remove the talisman. While the talisman is adhered to a creature or object, spells you know that are written to it can be cast as if from it's location. </p>
+			<p><strong><em>Remote Focus.</em></strong> You can cast spells you know from talisman you can see within 100 ft. that have those spells written to them from their location. </p>
+		</description>
+	</element>
+
+	<element name="Adhesive" type="Weapon Property" source="The Priest Class" id="ID_INTERNAL_WEAPON_PROPERTY_ADHESIVE">
+		<description>
+			<p>When this weapon hits, it adheres to the target. Any creature can make a strength ability check against your spell save dc (10 minimum) to remove the talisman. While the talisman is adhered to a creature or object, spells you know that are written to it can be cast as if from it's location.</p>
+		</description>
+	</element>
+
+	<element name="Remote Focus" type="Weapon Property" source="The Priest Class" id="ID_INTERNAL_WEAPON_PROPERTY_REMOTE_FOCUS">
+		<description>
+			<p>You can cast spells you know from talisman you can see within 100 ft. that have those spells written to them from their location.</p>
+		</description>
+	</element>
+
+	<element name="Weapon Proficiency (Talisman)" type="Proficiency" source="The Priest Class" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_TALISMAN">
+		<supports>Weapon, Simple, Melee, ID_INTERNAL_WEAPON_CATEGORY_SIMPLE_MELEE, ID_INTERNAL_DAMAGE_TYPE_FORCE</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_TALISMAN" />
+		</rules>
+	</append>
+  
+	<element name="Fan" type="Item" source="The Priest Class" id="ID_HOMEBREW_ITEM_FAN">
+		<description>
+			<p>A priest focus is a special item—a fan, a staff, a chime, or some similar item designed to channel the power of inscription spells. A priest can use such an item as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">1 lb.</set>
+			<set name="container">Priest Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Chime" type="Item" source="The Priest Class" id="ID_HOMEBREW_ITEM_CHIME">
+		<description>
+			<p>A priest focus is a special item—a fan, a staff, a chime, or some similar item designed to channel the power of inscription spells. A priest can use such an item as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">2 lb.</set>
+			<set name="container">Priest Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Staff" type="Item" source="The Priest Class" id="ID_HOMEBREW_ITEM_STAFF">
+		<description>
+			<p>A priest focus is a special item—a fan, a staff, a chime, or some similar item designed to channel the power of inscription spells. A priest can use such an item as a spellcasting focus.</p>
+		</description>
+		<setters>
+			<set name="category">Spellcasting Focus</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="container">Priest Focus</set>
+			<set name="slot">onehand</set>
+		</setters>
+	</element>
+
+	<element name="Sketch Pad" type="Item" source="The Priest Class" id="ID_HOMEBREW_ITEM_SKETCHPAD">
+		<description>
+			<p>Essential for priests, a sketch pad contains 100 blank ring-bound pages of paper suitable for recording spells.</p>
+		</description>
+		<setters>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="5">4 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+	</element>
+</elements>
