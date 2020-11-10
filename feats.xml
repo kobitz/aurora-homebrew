@@ -1,0 +1,39 @@
+<elements>
+	<element name="Versatile Fighter" type="Feat" source="Homebrew" id="ID_HOMEBREW_FEAT_TWOHANDEDFIGHTING">
+		<description>
+			<p>You master fighting with versatile weapons in more ways, gaining the following benefits:</p>
+			<ul>
+				<li>You can use your reaction to assume a parrying stance, provided you have a versatile weapon wielded in two hands. Doing so adds your proficiency bonus to your AC until the start of your next turn or until you’re not holding the weapon in two hands.</li>
+				<li>Versatile weapons are treated as if they have the finesse property while wielding no other weapon or shield.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>You gain a +{{versatile fighter:ac}} bonus to AC while in your parry stance.
+		    Versatile weapons are treated as if they have the finesse property while wielding no other weapon or shield.
+			</description>
+		</sheet>
+		<rules>
+			<stat name="versatile fighter:ac" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Iaido" type="Feat" source="Homebrew" id="ID_HOMEBREW_FEAT_IAIDO">
+		<description>
+			<p>You master drawing your weapon in combat, gaining the following benefits:</p>
+			<ul>
+				<li>When you make an unarmed attack, you can choose to instead draw a melee weapon and attack with it. 
+				You have advantage on attacks made in this way.</li>
+				<li>When you stow a melee weapon, you can use your bonus action to ready yourself. Until your next turn, you gain an extra reaction and other creatures provoke an opportunity attack from you when they enter the reach of the stowed weapon.
+				</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>
+			When you make an unarmed attack, you can choose to instead draw a melee weapon and attack with it. 
+			You have advantage on attacks made in this way.
+			When you stow a melee weapon, you can use your bonus action to ready yourself. Until your next turn, you gain an extra reaction and other creatures provoke an opportunity attack from you when they enter the reach of the stowed weapon.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:misc" value="1" equipped="[primary:any],[shield:none]" />
+		</rules>
+	</element>
+</elements>
