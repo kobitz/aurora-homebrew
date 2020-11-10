@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+    <name>Redcap</name>
+    <description>Homebrew redcap race.</description>
+    <author url="">homebrew</author>
+    <update version="0.1">
+      <file name="race-redcap.xml" url="" />
+    </update>
+  </info>
+  <element name="Redcap" type="Race" source="homebrew" id="ID_HOMEBREW_RACE_REDCAP">
+    <description>
+        <p class="flavor"> Resembling small, tough, and elderly human men or undersized wizened gnomes. They have hunched backs, wiry muscles, leathery skins, and evil smiles filled with wickedly sharp, protruding teeth. They wear bright-red leather pointed caps for which they were named; these are always soaked in fresh blood. They wield scythes, sickles, or other heavy bladed weapons that seem much too big for them.</p>
+        <h4>REDCAP TRAITS</h4>
+        <p>Your redcap character has the following racial traits.</p>
+        <p>
+        <span class="feature">Ability Score Increase.</span>Your Strength score increases by 2, and your Constitution score increases by 1.<br/>
+        <span class="feature">Age.</span>Redcaps reach adulthood at age 16 and live up to 120 years.<br/>
+        <span class="feature">Alignment.</span>Redcaps are typically chaotic evil, as they care only for their own needs.<br/>
+        <span class="feature">Size.</span>Redcaps are between 3 and 4 feet tall and weigh between 40 and 80 pounds. Your size is Small.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 25 feet.<br/>
+        <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+        <span class="feature">Outsize Strength.</span>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Sylvan.<br/>
+        </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <!-- names taken from online generator to have at least a few names in here -->
+      <set name="names" type="custom">n/a</set>
+      <set name="names-format">{{custom}}</set>
+    </setters>
+    <rules>
+      <stat name="strength" value="2" />
+      <stat name="constitution" value="1" />
+      <stat name="innate speed" value="25" bonus="base" />
+      <grant type="Size" id="ID_SIZE_SMALL" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_SYLVAN" />
+      <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_REDCAP_OUTSIZE_STRENGTH" />
+    </rules>
+  </element>
+  <element name="Outsize Strength" type="Racial Trait" source="homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_REDCAP_OUTSIZE_STRENGTH">
+    <description>
+      <p>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.</p>
+    </description>
+    <sheet>
+      <description>While grappling, the redcap is considered to be Medium. Also, wielding a heavy weapon doesn’t impose disadvantage on its attack rolls.</description>
+    </sheet>
+    <rules />
+  </element>
+</elements>
