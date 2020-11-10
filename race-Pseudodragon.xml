@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Pseudodragon</name>
+        <description>Pseudodragon</description>
+        <author url="https://www.dandwiki.com/wiki/Pseudodragon_(5e_Race)">homebrew based on D&amp;D Wiki and Monster Manual</author>
+        <update version="0.0.1">
+            <file name="race-Pseudodragon.xml" url="" />
+        </update>
+    </info>
+    <element name="Pseudodragon" type="Race" source="homebrew" id="ID_HOMEBREW_RACE_PSEUDODRAGON">
+        <description>
+            <p class="flavor">A pseudodragon is a small dragon-kin known to be playful but shy. Pseudodragons are not true dragons, but are highly valued for their use as wizard's familiars. Pseudodragons resemble cat sized dragons with a sinuous stinger at the end of their prehensile tail. They stand in a quadruped stance, but have articulate claws or talons. </p>
+            <h4>HISTORY</h4>
+            <p>A God of Knowledge found their kind to have potential, then deciding to grant some a boost of intellect. The newly enlightened pseudodragons grouped together and ventured into the world; some mages attempted to take some of these more intelligent pseudodragons as familiars but were met with ferocity as the pseudodragons wanted to have their own lives, thus many became mages themselves in order to prevent themselves from becoming familiars or to spite the norm of spellcasters.</p>
+            <h4>SOCIETY</h4>
+            <p>As with normal pseudodragons, they revel in knowledge and as such many of superior intellect choose to become mages and thus are often found in associated places. They generally don't have their own culture, choosing to learn and involve themselves with another race's or order's society. This means that individual pseudodragons can have vastly different customs and ideals to one another.</p>
+			<h4>PSEUDODRAGON NAMES</h4>
+			<p>Many pseudodragons of this variety draw from the Draconic language like the dragonborn but also draw from notable scholarly figures or create derivations of deities that they align with in honor of them.</p>
+			<ul class="unstyled">
+				<li><strong>Male: </strong>Apophis, Arjhan, Balasar, Ghesh, Heskan, Kriv, Medrash, Mehen, Nadarr, Ogmal, Pandjed, Patrin, Rhogar, Socrates, Tarhun, Torinn</li>
+				<li><strong>Female: </strong>Akra, Biri, Farideh, Freya, Harann, Hypatia, Jheri, Kava, Korinn, Mishann, Mystril, Perra, Raiann, Sora, Surina, Thava, Uadjit</li>
+			</ul>
+            <h4>PSEUDODRAGON TRAITS</h4>
+            <p>Your Pseudodragon character has the following traits.</p>
+            <p>
+                <span class="feature">Ability Score Decrease. </span>Your Strength score is decreased by 2 and your Dexterity and Constitution are increased by 1.<br />
+                <span class="feature">Age. </span>Pseudodragons, being cousins of true dragons, share their long life. They mature at the age of 5 and can live for 160 years.<br />
+                <span class="feature">Alignment. </span> Most pseudodragons are pleasant in demeanor, commonly being neutral leaning towards good. Extreme and evil alignments are incredibly rare, but not unheard of.<br />
+                <span class="feature">Size. </span>Pseudodragons are commonly cat-sized, typically having bodies about one foot long with a two-foot tail and weighing about seven pounds. Your size is Tiny.<br />
+                <span class="feature">Speed. </span>Your base walking speed is 15 feet.<br />
+                <span class="feature">Flight. </span>Your have a flying speed equal to 60 feet.<br />
+                <span class="feature">Darkvision. </span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br />
+                <span class="feature">Blindsight. </span>If you are able to hear, you are aware of the location of any hidden or invisible creature within 10 feet of you.<br />
+                <span class="feature">Dragon. </span>You may be the smallest of the dragons but you are still a dragon. Your creature type is dragon.<br />
+                <span class="feature">Keen Senses. </span>The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.<br />
+                <span class="feature">Magic Resistance. </span>The pseudodragon has advantage on saving throws against spells and other magical effects.<br />
+                <span class="feature">Limited Telepathy. </span>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft. of it that can understand a language.<br />
+                <span class="feature">Tooth and Tail.</span> You are proficient with your unarmed strikes, which deal 1d4 piercing damage and have a chance to poison on hit. Your claws can interact with objects but are not suited for wielding weapons. You may use your jaws or tail to wield light weapons.<br />
+                <span class="feature">Variant: Familiar. </span>The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.<br />
+                <span class="feature">Languages. </span>Understands Common And Draconic But Can't Speak.<br />
+            </p>
+        </description>
+        <sheet display="false" />
+        <setters>
+            <set name="names" type="male">Covara, Jamaran, Puck, Hob</set>
+            <set name="names" type="female">Faula, Mysteria, Eowyn, Lily</set>
+            <set name="names-format">{{name}}</set>
+            <set name="height" modifier="2d4">0'4"</set>
+            <set name="weight" modifier="1d4">1</set>
+        </setters>
+        <rules>
+            <stat name="Dexterity" value="1" />
+            <stat name="Constitution" value="1" />
+            <stat name="strength" value="-2" />
+            <stat name="innate speed" value="15" bonus="base" />
+            <stat name="innate speed:fly" value="60" bonus="base" />
+            <grant type="Size" id="ID_SIZE_TINY" />
+      		<grant type="Vision" id="ID_VISION_DARKVISION" />
+            <grant type="Vision" id="ID_HOMEBREW_VISION_BLINDSIGHT" />
+            <grant type="Language" id="ID_LANGUAGE_COMMON" />
+            <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_TYPE" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_KEEN_SENSE" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_LIMITED_TELEPATHY" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_NATURAL_WEAPONS" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_VARIANT" />
+        </rules>
+    </element>
+
+    <element name="Dragon" type="Racial Trait" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_TYPE">
+        <supports>Pseudodragon</supports>
+        <requirements />
+        <sheet>
+            <description>
+            	Your creature type is dragon.
+            </description>
+        </sheet>
+        <sheet display="true"/>
+    </element>
+    <element name="Blindsight" type="Vision" source="Monster Manual" id="ID_HOMEBREW_VISION_BLINDSIGHT">
+        <description>
+            <p>A creature with blindsight can perceive its surroundings without relying on sight, within a 10ft radius. Creatures without eyes, such as oozes, and creatures with echolocation or heightened senses, such as bats and true dragons, have this sense.</p>
+        </description>
+        <sheet>
+            <description>You perceive your surroundings without relying on sight, within a 10ft radius.</description>
+        </sheet>
+    </element>
+    <element name="Keen Sense" type="Racial Trait" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_KEEN_SENSE">
+        <supports>Pseudodragon</supports>
+        <requirements />
+        <sheet>
+            <description>
+            	The pseudodragon has advantage on Wisdom (Perception) checks that rely on sight, hearing, or smell.
+            </description>
+        </sheet>
+        <sheet display="true"/>
+    </element>
+    <element name="Magic Resistance" type="Racial Trait" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_MAGIC_RESISTANCE">
+        <sheet>
+            <description>
+        	<p>The pseudodragon has advantage on saving throws against spells and other magical effects.</p>
+        	</description>
+        </sheet>
+    </element>
+    <element name="Limited Telepathy" type="Racial Trait" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_LIMITED_TELEPATHY">
+    	<sheet>
+        	<description>
+            <p>The pseudodragon can magically communicate simple ideas, emotions, and images telepathically with any creature within 100 ft. of it that can understand a language.</p>
+        	</description>
+    	</sheet>
+    </element>
+    <element name="Tooth and Tail" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_NATURAL_WEAPONS">
+        <supports />
+        <description>
+            <p>Your unarmed attacks are a bite and a sting. You are proficient and can use Dexterity instead of Strength with these attacks. Your claws can interact with objects normally but are not suited for wielding weapons. Instead, your jaws and prehensile tail can each wield a weapon with the light property. You cannot use your bite or sting attacks while wielding a weapon in your jaws or tail respectively. Your jaws are considered your main hand and your tail is considered your off hand. You cannot throw a weapon held in your jaws.</p>
+        </description>
+        <sheet>
+            <description>You are proficient with your unarmed strikes, which deal 1d4 piercing damage and have a chance to poison on hit. Your claws can interact with objects but are not suited for wielding weapons. You may use your jaws or tail to wield light weapons.</description>
+        </sheet>
+        <rules>
+            <grant type="Racial Trait" id="ID_HOMEBREW_ATTACK_PSEUDODRAGON_BITE" />
+            <grant type="Racial Trait" id="ID_HOMEBREW_ATTACK_PSEUDODRAGON_STING" />
+            <stat name="pseudodragon:mod" value="dexterity:modifier" bonus="base" />
+            <stat name="pseudodragon:mod" value="strength:modifier" bonus="base" />
+        </rules>
+    </element>
+    <element name="Bite" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_ATTACK_PSEUDODRAGON_BITE">
+        <sheet>
+        <description>Melee Weapon Attack: 1d4+{{pseudodragon:mod}} piercing damage.</description>
+        </sheet>
+    </element>
+    <element name="Sting" type="Racial Trait" source="Homebrew" id="ID_HOMEBREW_ATTACK_PSEUDODRAGON_STING">
+        <sheet>
+            <description>Melee Weapon Attack: 1d4+{{pseudodragon:mod}} piercing damage, and the target must succeed on a DC {{Pseudodragon sting:dc}} Constitution saving throw or become poisoned for 1 hour. If the saving throw fails by 5 or more, the target falls unconscious for the same duration, or until it takes damage or another creature uses an action to shake it awake.</description>
+        </sheet>
+        <rules>
+            <stat name="Pseudodragon sting:dc" value="10" />
+            <stat name="Pseudodragon sting:dc" value="constitution:modifier" />
+        </rules>
+    </element>
+
+    <element name="Variant" type="Racial Trait" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_VARIANT">
+        <supports />
+        <requirements />
+        	<description>
+            <p>The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.</p>
+        	</description>
+        <sheet display="false" />
+    <rules>
+      <select type="Sub Race" name="Variant" supports="Pseudodragon" />
+    </rules>
+    </element>
+
+    <element name="Pseudodragon Familiar" type="Sub Race" source="Monster Manual" id="ID_HOMEBREW_RACIAL_TRAIT_PSEUDODRAGON_VARIANT_FAMILIAR">
+    <supports>Pseudodragon</supports>
+    <requirements />
+    <description>
+      <p>The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.</p>
+    </description>
+    <sheet>
+    <description>
+      <p>The pseudodragon can serve another creature as a familiar, forming a magic, telepathic bond with that willing companion. While the two are bonded, the companion can sense what the pseudodragon senses as long as they are within 1 mile of each other. While the pseudodragon is within 10 feet of its companion, the companion shares the pseudodragon's Magic Resistance trait. At any time and for any reason, the pseudodragon can end its service as a familiar, ending the telepathic bond.</p>
+    </description>
+    </sheet>
+  </element>
+</elements>
+
