@@ -1,0 +1,153 @@
+<elements>
+	<element name="Chain Sickle" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_CHAIN_SICKLE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+		<description>
+			<p>This weapon is a sickle attached to a heavy iron weight by a length of chain. In some cultures it is known as a kusarigama.</p>
+			<p>If you take an attack action, you can instead use the chain sickle to make an Entangle action.</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d4</set>
+			<set name="versatile">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_WHIP</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE</set>
+		</setters>
+	</element>
+	<element name="Spit" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_SPIT">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>Alternatively; proficiency with both rapiers and spears allows you to add your proficiency bonus to the attack roll for any attack you make with the spit.</p>
+			<p>A rapier with an extended spear-like handle and ring pommel you can attach a tassel, cord, or rope to. The weapon is surprisingly light for its size and balanced perfectly to be thrown. This weapon is treated as both a rapier and a spear.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d6</set>
+			<set name="versatile">2d4</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+	<element name="Spit, Light" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_SPIT_LITE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_LIGHT, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>Alternatively; proficiency with both rapiers and spears allows you to add your proficiency bonus to the attack roll for any attack you make with the spit.</p>
+			<p>A shortened rapier with an extended spear-like handle and ring pommel you can attach a tassel, cord, or rope to. The weapon is surprisingly light for its size and balanced perfectly to be thrown. This weapon is treated as both a rapier and a spear.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="2">2 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">20/60</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="versatile">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+	<element name="Spit, Reach" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_SPIT_LARGE">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_PROPERTY_REACH</supports>
+		<description>
+			<p>Alternatively; proficiency with both rapiers and spears allows you to add your proficiency bonus to the attack roll for any attack you make with the spit.</p>
+			<p>A rapier with an extended spear-like handle and ring pommel you can attach a tassel, cord, or rope to. The weapon is surprisingly light for its size, boasting a long reach without burden. This weapon is treated as both a rapier and a spear.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="piercing">1d4</set>
+			<set name="versatile">1d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element>
+	<element name="Katana" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_KATANA">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d6</set>
+			<set name="versatile">2d4</set>
+			<set name="proficiency">ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+		</setters>
+	</element>
+	<element name="Weapon Proficiency (Katana)" type="Proficiency" source="Homebrew" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA">
+		<supports>Weapon, Martial, Melee, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+	</element>
+	<append id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_MELEE_WEAPONS">
+		<rules>
+			<grant type="Proficiency" id="ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA" />
+		</rules>
+	</append>
+	<element name="Mizzium Shield" type="Magic Item" source="Homebrew" id="ID_HOMEBREW_MAGIC_ITEM_MIZZIUM_SHIELD">
+		<description>
+			<p>This shield is reinforced with a magically enhanced metal alloy called mizzium, which is made in Izzet foundries. While bearing the shield, any critical hit against you becomes a normal hit. In addition, when you are subjected to a magical effect that allows you to make a Strength or Constitution saving throw to take only half damage, you instead take no damage if you succeed on the saving throw.</p>
+		</description>
+		<setters>
+			<set name="keywords">shield</set>
+			<set name="category">Magic Armor</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="type" addition="shield">Armor</set>
+			<set name="rarity">Legendary</set>
+			<set name="enhancement">3</set>
+			<set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+			<set name="name-format">Mizzium {{parent}} +{{enhancement}}</set>
+		</setters>
+		<rules>
+			<stat name="ac:shield" value="3" bonus="enhancement" />
+		</rules>
+	</element>
+	<!-- 
+	<element name="Spit, OP" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_SPIT_OP">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_THROWN, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SPEARS, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>Alternatively; proficiency with both rapiers and spears allows you to add your proficiency bonus to the attack roll for any attack you make with the spit.</p>
+			<p>A rapier with an extended spear-like handle and a ring pommel you can attach a tassel, cord, or rope to. The weapon is heavier than a rapier but balanced perfectly to be thrown. This weapon is treated as both a rapier and a spear.
+			</p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">100</set>
+			<set name="weight" lb="4">4 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="range">15/45</set>
+			<set name="damage" type="piercing">2d4</set>
+			<set name="versatile">2d6</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER</set>
+			<set name="proficiency">ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR</set>
+		</setters>
+	</element> 
+-->
+	<!-- <element name="Katana, OP" type="Weapon" source="Homebrew" id="ID_HOMEBREW_WEAPON_KATANA_OP">
+		<supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_FINESSE, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS</supports>
+		<description>
+			<p>In some cultures this strong, single-edged sword is a symbol of honor and prestige. The katana is intended for two-handed use, but it's light enough to be wielded one-handed. </p>
+		</description>
+		<setters>
+			<set name="category">Weapons</set>
+			<set name="cost" currency="gp">15</set>
+			<set name="weight" lb="3">3 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="damage" type="slashing">1d10</set>
+			<set name="versatile">2d6</set>
+			<set name="proficiency">ID_HOMEBREW_PROFICIENCY_WEAPON_PROFICIENCY_KATANA</set>
+		</setters>
+	</element> -->
+</elements>
